@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 
 <head>
     <meta charset="UTF-8">
@@ -7,25 +7,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/all.css">
     <link rel="stylesheet" href="./css/width.css">
+    <link rel="stylesheet" href="./css/z-index.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <section id="open">
-        <form action="./php/index.php" class="fixed-center">
-            <div class="container w-25">
-                <input type="text" autocomplete="off" placeholder="O'z loginingizni kiriting" class="login">
+    <section id="open" class="z-101">
+        <div class="fixed-center">
+            <div class="container w-30">
+                <input id="logInCode" type="text" autocomplete="off" placeholder="O'z loginingizni kiriting" class="login">
             </div>
             <br>
-            <div class="container w-25">
-                <input type="password" autocomplete="off" placeholder="O'z parolingizni kiriting" class="password">
+            <div class="container w-30">
+                <input id="passwordCode" type="password" autocomplete="off" placeholder="O'z parolingizni kiriting" class="password">
                 <span onclick="togglePass()" class="password-icon">
             <i class="fa fa-eye-slash"></i>
         </span>
             </div>
             <button>Ro'yxatdan o'tish</button>
-            <button>Kirish</button>
-        </form>
+            <button onclick="logIn()">Kirish</button>
+        </div>
     </section>
     <section id="close">
 

@@ -18,3 +18,30 @@ function togglePass() {
     }
 }
 //
+
+function logIn() {
+    const openSection = document.querySelector("#open");
+    const passwordCode = document.getElementById("passwordCode").value;
+    if (passwordCode === 998933057927) {
+        openSection.innerHTML = '';
+    }
+    // switch (passwordCode) {
+    //     case '998933057927':
+    //     case 'h998933057927':
+    //         openSection.innerHTML = '';
+    // }
+}
+// const passwordCode = passwordEl.value;
+
+// function logIn() {
+//     switch (passwordCose) {
+//         case '998933057927':
+//         case 'h998933057927'
+//         openSection.classList.remove("z-101");
+//         openSection.classList.add("z-i101");
+//         openSection.innerHTML = '';
+//         break;
+//         default:
+//             ;
+//     }
+// }

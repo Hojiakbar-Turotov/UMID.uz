@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 #open {
     position: fixed;
     width: 100%;
@@ -11,7 +17,7 @@
 }
 
 #open .container:focus-within {
-    border-bottom: 2px solid #00c711
+    border-bottom: 2px solid #0077c7
 }
 
 #open .login {
@@ -46,4 +52,23 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
+}
+
+#open button {
+    width: 140px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 8px 12px;
+    background-color: #001aff44;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+#open button:hover {
+    background-color: #001affdd;
+    color: #fff;
+    font-size: 15px;
+    animation: buttonAnimation 3s forwards;
 }
