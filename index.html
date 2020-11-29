@@ -11,12 +11,28 @@
 </head>
 
 <body>
-    <div class="container w-25">
-        <input type="password" autocomplete="off" placeholder="O'z parolingizni kiriting" class="password">
-        <span onclick="togglePass()" class="password-icon">
+    <section id="open">
+        <form action="./php/index.php" class="fixed-center">
+            <div class="container w-25">
+                <input type="text" autocomplete="off" placeholder="O'z loginingizni kiriting" class="login">
+            </div>
+            <br>
+            <div class="container w-25">
+                <input type="password" autocomplete="off" placeholder="O'z parolingizni kiriting" class="password">
+                <span onclick="togglePass()" class="password-icon">
             <i class="fa fa-eye-slash"></i>
         </span>
-    </div>
+            </div>
+            <button>Ro'yxatdan o'tish</button>
+            <button>Kirish</button>
+        </form>
+    </section>
+    <section id="close">
+
+    </section>
+    <section id="openning">
+
+    </section>
     <script src="./js/app.js"></script>
 </body>
 
