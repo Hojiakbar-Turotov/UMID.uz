@@ -1,0 +1,25 @@
+.container {
+    border-bottom: 2px solid #292942;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+}
+
+.container:focus-within {
+    border-bottom: 2px solid #00c711
+}
+
+.password {
+    padding: 8px;
+    border: 0;
+    width: 200px
+}
+
+.password:focus {
+    outline: 0
+}
+
+.password-icon {
+    float: right;
+    background: #fff;
+    cursor: pointer;
+    padding: 6.5px
+}
