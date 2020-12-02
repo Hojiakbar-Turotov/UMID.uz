@@ -4,57 +4,57 @@
     margin: 0;
 }
 
-#open {
+#openLogIn {
     position: fixed;
     width: 100%;
     height: 100vh;
     background-color: #ffffffaa;
 }
 
-#open .container {
+#openLogIn .container {
     border-bottom: 2px solid #292942;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
 }
 
-#open .container:focus-within {
+#openLogIn .container:focus-within {
     border-bottom: 2px solid #0077c7
 }
 
-#open .login {
+#openLogIn .login {
     padding: 8px;
     border: 0;
     width: 200px
 }
 
-#open .login {
+#openLogIn .login {
     outline: 0;
 }
 
-#open .password {
+#openLogIn .password {
     padding: 8px;
     border: 0;
     width: 200px
 }
 
-#open .password:focus {
+#openLogIn .password:focus {
     outline: 0
 }
 
-#open .password-icon {
+#openLogIn .password-icon {
     float: right;
     background: #fff;
     cursor: pointer;
     padding: 6.5px
 }
 
-#open .fixed-center {
+#openLogIn .fixed-center {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
 
-#open button {
+#openLogIn button {
     width: 140px;
     margin-top: 20px;
     margin-right: 5px;
@@ -66,7 +66,7 @@
     font-size: 14px;
 }
 
-#open button:hover {
+#openLogIn button:hover {
     background-color: #001affdd;
     color: #fff;
     font-size: 15px;
