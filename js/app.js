@@ -1,4 +1,9 @@
 // 
+const openLogIn = document.getElementById("open");
+const closeLogIn = document.getElementById("close");
+const openning = document.querySelectorAll("#openning");
+
+// 
 const passwordEl = document.querySelector(".password");
 const eyeButton = document.querySelector(".fa");
 let isPass = true;
@@ -14,34 +19,18 @@ function togglePass() {
         eyeButton.classList.remove("fa-eye");
         eyeButton.classList.add("fa-eye-slash");
         isPass = true
-
     }
 }
 //
-
 function logIn() {
-    const openSection = document.querySelector("#open");
-    const passwordCode = document.getElementById("passwordCode").value;
-    if (passwordCode === 998933057927) {
-        openSection.innerHTML = '';
-    }
-    // switch (passwordCode) {
-    //     case '998933057927':
-    //     case 'h998933057927':
-    //         openSection.innerHTML = '';
-    // }
-}
-// const passwordCode = passwordEl.value;
+    const LOGIN = document.querySelectorAll(".login").value;
+    const PASSWORD = passwordEl.value;
 
-// function logIn() {
-//     switch (passwordCose) {
-//         case '998933057927':
-//         case 'h998933057927'
-//         openSection.classList.remove("z-101");
-//         openSection.classList.add("z-i101");
-//         openSection.innerHTML = '';
-//         break;
-//         default:
-//             ;
-//     }
-// }
+    if ((LOGIN = hturotov) && (PASSWORD === 998933057927)) {
+        openLogIn.classList.add("d-none");
+        openning.classList.remove("d-none");
+    } else {
+        openLogIn.classList.add("d-none");
+        closeLogIn.classList.remove("d-none")
+    }
+}
