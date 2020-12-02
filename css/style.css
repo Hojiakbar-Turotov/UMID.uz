@@ -4,6 +4,17 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* kirish qismi boshlandi */
+
 #openLogIn {
     position: fixed;
     width: 100%;
@@ -55,7 +66,7 @@
 }
 
 #openLogIn button {
-    width: 140px;
+    width: 135px;
     margin-top: 20px;
     margin-right: 5px;
     margin-left: 5px;
@@ -64,6 +75,11 @@
     border: none;
     border-radius: 12px;
     font-size: 14px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms;
 }
 
 #openLogIn button:hover {
@@ -72,3 +88,74 @@
     font-size: 15px;
     animation: buttonAnimation 3s forwards;
 }
+
+#openLogIn button:focus {
+    outline: none;
+    border: solid 2px transparent;
+    animation: spin 2s 500ms forwards;
+}
+
+@keyframes spin {
+    80% {
+        border: 2px solid transparent;
+    }
+    100% {
+        transform: rotate(1080deg);
+        border: 2px solid #001affdd;
+    }
+}
+
+@keyframes check {
+    to {
+        fill: #fff;
+    }
+}
+
+@keyframes circle {
+    to {
+        border: 2px solid;
+    }
+}
+
+#openLogIn button:focus span {
+    color: transparent;
+}
+
+#openLogIn button:focus svg {
+    animation: check 500ms 2300ms forwards;
+}
+
+#openLogIn button span {
+    fill: transparent;
+    font-size: 12px;
+}
+
+#openLogIn button svg {
+    fill: transparent;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+}
+
+
+/* kirish qismi tugadi */
+
+
+/* xatolikni bildirish qismi boshlandi */
+
+#closeLogIn {
+    font-variant-caps: small-caps;
+    padding: 50px 100px;
+    line-height: 50px;
+}
+
+#closeLogIn h1 a {
+    color: #00ff00;
+}
+
+#closeLogIn h1 span {
+    color: #00ff;
+}
+
+
+/* xatolikni bildirish qismi tugadi */
