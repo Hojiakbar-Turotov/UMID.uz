@@ -67,7 +67,7 @@ li {
 
 #openLogIn button {
     width: 135px;
-    margin-top: 20px;
+    margin-top: 28px;
     margin-right: 5px;
     margin-left: 5px;
     padding: 8px 12px;
@@ -82,11 +82,38 @@ li {
     transition: 500ms;
 }
 
+#openLogIn button span {
+    fill: transparent;
+    font-size: 12px;
+}
+
+#openLogIn button svg {
+    fill: #001aff44;
+    width: 15px;
+    height: 15px;
+    display: none;
+}
+
 #openLogIn button:hover {
     background-color: #001affdd;
     color: #fff;
     font-size: 15px;
     animation: buttonAnimation 3s forwards;
+}
+
+@keyframes buttonAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(-8px);
+    }
+    66% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
 }
 
 #openLogIn button:focus {
@@ -100,7 +127,7 @@ li {
         border: 2px solid transparent;
     }
     100% {
-        transform: rotate(1080deg);
+        transform: translateY(10px) rotate(1080deg);
         border: 2px solid #001affdd;
         width: 35px;
         height: 30px;
@@ -110,37 +137,20 @@ li {
     }
 }
 
-@keyframes check {
-    to {
-        fill: #fff;
-    }
-}
-
-
-/* @keyframes circle {
-    to {
-        border: 2px solid;
-    }
-} */
-
 #openLogIn button:focus span {
     color: transparent;
+    display: none;
+}
+
+#openLogIn button:hover svg {
+    fill: #001affdd;
 }
 
 #openLogIn button:focus svg {
-    animation: check 500ms 2300ms forwards;
-}
-
-#openLogIn button span {
-    fill: transparent;
-    font-size: 12px;
-}
-
-#openLogIn button svg {
-    fill: transparent;
-    font-size: 12px;
-    width: 15px;
-    height: 15px;
+    display: inline-block;
+    fill: #fff;
+    width: 30px;
+    height: 20px;
 }
 
 
