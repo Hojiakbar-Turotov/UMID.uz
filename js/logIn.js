@@ -13,3 +13,8 @@ function openLogIn() {
         CLOSELOGIN.classList.remove("d-none")
     }
 }
+
+
+// function kutishRejimi (sekunt, minut, soat){
+//     const SOATQIYMATI= new("hou")
+// }

@@ -102,6 +102,11 @@ li {
     100% {
         transform: rotate(1080deg);
         border: 2px solid #001affdd;
+        width: 35px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 0 55px;
+        overflow: hidden;
     }
 }
 
@@ -111,11 +116,12 @@ li {
     }
 }
 
-@keyframes circle {
+
+/* @keyframes circle {
     to {
         border: 2px solid;
     }
-}
+} */
 
 #openLogIn button:focus span {
     color: transparent;
@@ -155,6 +161,7 @@ li {
 
 #closeLogIn h1 span {
     color: #00ff;
+    cursor: url("../image/icons/cursor/Refresh.cur"), auto;
 }
 
 
