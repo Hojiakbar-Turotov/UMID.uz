@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <section id="openLogIn" class="z-101">
+    <section id="openLogIn" class="z-101 d-none">
         <div class="fixed-center">
             <div class="container w-30"><input name="logInCode" type="text" autocomplete="off" placeholder="O'z loginingizni kiriting" class="login" id="loginid"></div><br>
             <div class="container w-30"><input name="passwordCode" type="password" autocomplete="off" placeholder="O'z parolingizni kiriting" class="password" id="passwordid"><span onclick="togglePass()" class="password-icon"><i class="fa fa-eye-slash"></i></span></div>
@@ -34,9 +34,13 @@
     <section id="closeLogIn" class="d-none">
         <h1>Xatolik yuz berdi. <br>Hammasi to'g'ridek ko'rinishi mumkin, ammo xato bor. <br>Biz bilan bog'laning. <a href="https://t.me/h_turotov">Bog'lanish</a><br><span onclick="reloadPage()">Qaytadan urinish</span></h1>
     </section>
-    <section id="openning" class="d-none">
-
+    <section id="openning" class="d-block">
+        <div id="pulse">
+            <div class="pulse">
+            </div>
+        </div>
     </section>
+    <script src="./js/preloader.js"></script>
     <script src="./js/togglePass.js"></script>
     <script src="./js/logIn.js"></script>
     <script src="./js/reloadPage.js"></script>
