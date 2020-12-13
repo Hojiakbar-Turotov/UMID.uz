@@ -184,7 +184,8 @@ li {
     position: fixed;
     height: 100vh;
     width: 100%;
-    animation: pulseid 3s forwards;
+    animation: pulseid 7s forwards;
+    z-index: 9999;
 }
 
 @keyframes pulseid {
@@ -230,4 +231,159 @@ li {
 }
 
 
+/*  */
+
+.page {
+    box-sizing: border-box;
+    order: 1;
+    margin: auto;
+}
+
+.menyu:hover .menyu_link:not(:hover) {
+    opacity: .5;
+}
+
+.menyu_list {
+    display: flex;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.menyu-group {
+    flex-grow: 1;
+}
+
+.menyu {
+    background-color: #0957ff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+}
+
+.menyu_link:focus {
+    outline: 2px solid #fff;
+}
+
+.menyu_link {
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    will-change: color;
+    display: block;
+    transition: color .25s ease-out;
+}
+
+.menyu_link::before {
+    left: 50%;
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    will-change: width;
+    transition: width .1s ease-out;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.menyu_link::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    will-change: width;
+    transition: width .1s ease-out;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.menyu_link:hover::before,
+.menyu_link:hover::after {
+    width: 100%;
+    transition-duration: .2s;
+}
+
+
+/*  */
+
+.nav1,
+.nav2 {
+    position: fixed;
+    bottom: 20px;
+    /* width: 100%; */
+}
+
+.fa-chevron-circle-right {
+    background-color: #00ff;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 45px;
+    transform: rotateZ(270deg);
+    cursor: pointer;
+}
+
+.nav1 {
+    right: 70px;
+}
+
+.nav1 .fa-chevron-circle-right {
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+}
+
+.nav2 {
+    left: 70px;
+}
+
+.nav1 .holatA {
+    transform: rotateZ(90deg);
+}
+
+
 /* Asosiy qism tugadi */
+
+
+/* kalkulyator boshlandi */
+
+#kalkulyator iframe {
+    width: 340px;
+    height: 450px;
+    scroll-margin: none;
+}
+
+
+/* kalkulyator tugadi */
+
+
+/* 13.12.2020 */
+
+.asosiy-menyu {
+    width: 100%;
+    height: 400px;
+    transform: translateX(70px);
+}
+
+.asosiy-menyu .menyu {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#navA {
+    z-index: 500;
+}
+
+#navBody.bottom-40 {
+    transform: translateY(-20px)
+}
+
+#navBody.bottom-40>div>i {
+    transform: rotateZ(45deg)
+}

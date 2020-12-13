@@ -1,0 +1,75 @@
+:root {
+    --textcolor: #0000009a;
+    --innertextsize: 20px;
+    --textsize: 25px;
+}
+
+input:active,
+input:hover,
+input:focus {
+    border: none;
+    box-shadow: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #00d9ff55;
+    width: 320px
+}
+
+h1 {
+    text-align: center;
+    margin: 12px auto;
+    background: linear-gradient(to left, #f08408, #06f585);
+    padding-bottom: 1px
+}
+
+h2 {
+    text-align: center;
+    margin-top: -12px;
+    color: #fff;
+    background: linear-gradient(to left, #06f585, #f08408);
+    padding-top: 1px
+}
+
+.calci {
+    width: 320px;
+    text-align: center
+}
+
+#display {
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    font-size: var(--textsize);
+    padding: 12px 20px;
+    border: none;
+    background: white;
+    border-radius: 30px;
+    border: 2px solid white(5, 218, 255, 0.726);
+    color: var(--textcolor)
+}
+
+.operator,
+.button {
+    width: 65px;
+    font-size: var(--innertextsize);
+    padding: 5px 10px;
+    border: none;
+    color: var(--textcolor);
+    background: white;
+    font-weight: 300;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px
+}
+
+.operator:hover {
+    cursor: pointer;
+    background: #00d9ff
+}

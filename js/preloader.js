@@ -1,1 +1,1 @@
-setTimeout(function() { document.getElementById("pulse").classList.add("d-none"); }, 5000)
+setTimeout(function() { document.getElementById("pulse").classList.add("d-none"); }, 7000)
