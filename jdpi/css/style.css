@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/*'Dancing Script', cursive  */
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* 'Indie Flower', cursive */
+
+#masala {
+    background-color: #00000011;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg {
+    top: 100px;
+    left: 30px;
+    position: absolute;
+    color: #00000051;
+    font-size: 90px;
+    transform: rotateZ(-45deg);
+}
+
+.p {
+    color: #000000;
+    padding: 20px;
+    line-height: 29px;
+    font-size: 19px;
+}
+
+.p span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.p .v {
+    font-size: 17px;
+}
+
+.p .u {
+    font-size: 17px;
+}
