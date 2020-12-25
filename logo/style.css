@@ -1,0 +1,26 @@
+body {
+    background-color: #00000044;
+}
+
+.header {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0000ff99;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.h1 {
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    padding-left: 45px;
+    text-align: center;
+    padding-right: 60px;
+    color: #52bd27;
+}
