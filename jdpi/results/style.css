@@ -12,11 +12,13 @@ table {
 
 td {
     cursor: pointer;
+    color: #00ff;
 }
 
 .notpointer>td,
 .notpointer {
     cursor: context-menu;
+    color: #000;
 }
 
 .number {
