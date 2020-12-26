@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin-top: 50px;
+    margin-left: 30px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+td {
+    cursor: pointer;
+}
+
+.notpointer>td,
+.notpointer {
+    cursor: context-menu;
+}
+
+.number {
+    width: 50px;
+}
+
+.ismfamilya {
+    width: 200px;
+}
+
+.box {
+    width: 70px;
+}
+
+.b-r {
+    border-right: 1px dashed #000;
+}
+
+.b-t {
+    border-top: 1px dashed #000;
+}
+
+.b-b {
+    border-bottom: 1px dashed #000;
+}
+
+.b-l {
+    border-left: 1px dashed #000;
+}
+
+.b-x {
+    border-right: 1px dashed #000;
+    border-left: 1px dashed #000;
+}
+
+.b-y {
+    border-top: 1px dashed #000;
+    border-bottom: 1px dashed #000;
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+#table {
+    overflow: auto;
+}

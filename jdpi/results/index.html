@@ -5,68 +5,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        table {
-            margin-top: 50px;
-            margin-left: 30px;
-            border: 1px solid #000;
-            text-align: center;
-        }
-        
-        .ismfamilya {
-            width: 200px;
-        }
-        
-        .box {
-            width: 70px;
-        }
-        
-        .b-r {
-            border-right: 1px dashed #000;
-        }
-        
-        .b-t {
-            border-top: 1px dashed #000;
-        }
-        
-        .b-b {
-            border-bottom: 1px dashed #000;
-        }
-        
-        .b-l {
-            border-left: 1px dashed #000;
-        }
-        
-        .b-x {
-            border-right: 1px dashed #000;
-            border-left: 1px dashed #000;
-        }
-        
-        .b-y {
-            border-top: 1px dashed #000;
-            border-bottom: 1px dashed #000;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://umid-uz.netlify.app/css/z-index.css">
+    <link rel="stylesheet" href="https://umid-uz.netlify.app/css/display.css">
 </head>
 
 <body>
-    <table>
-        <tr class="b-b-dashed">
-            <td class="ismfamilya b-b">Ism Familya</td>
-            <td class="box b-x b-b">1-masala</td>
-            <td class="box b-b">2-masala</td>
-            <td class="box b-x b-b">3-masala</td>
-            <td class="box b-b">4-masala</td>
-            <td class="box b-x b-b">5-masala</td>
-            <td class="box b-b">6-masala</td>
-            <td class="box b-l b-b">7-masala</td>
-        </tr>
-        <tr>
+    <section id="table" class="z-i101">
+        <table>
+            <tr class="b-b-dashed notpointer">
+                <td class="number b-b b-r">O'rin:</td>
+                <td class="ismfamilya b-b">Ism Familya</td>
+                <td class="box b-x b-b">1-masala</td>
+                <td class="box b-b">2-masala</td>
+                <td class="box b-x b-b">3-masala</td>
+                <td class="box b-b">4-masala</td>
+                <td class="box b-x b-b">5-masala</td>
+                <td class="box b-b">6-masala</td>
+                <td class="box b-x b-b">7-masala</td>
+                <td class="box b-b">Jami:</td>
+            </tr>
+            <tr>
+                <td class="number b-b b-r notpointer">1</td>
+                <td class="ismfamilya b-b notpointer">Ulasheva Mashhura</td>
+                <td class="box b-x b-b" onclick="UMmasala1()">9-ball</td>
+                <td class="box b-b" onclick="minus()">---</td>
+                <td class="box b-x b-b">3-ball</td>
+                <td class="box b-b">2-ball</td>
+                <td class="box b-x b-b">3-ball</td>
+                <td class="box b-b">1-ball</td>
+                <td class="box b-x b-b">2-ball</td>
+                <td class="box b-b">20-ball</td>
+            </tr>
+            <tr>
+                <td class="number b-b b-r notpointer">2</td>
+                <td class="ismfamilya b-b notpointer">Usmonov Azimjon</td>
+                <td class="box b-x b-b">9-ball</td>
+                <td class="box b-b" onclick="minus()">---</td>
+                <td class="box b-x b-b" onclick="minus()">---</td>
+                <td class="box b-b" onclick="minus()">---</td>
+                <td class="box b-x b-b" onclick="minus()">---</td>
+                <td class="box b-b" onclick="minus()">---</td>
+                <td class="box b-x b-b" onclick="minus()">---</td>
+                <td class="box b-b">9-ball</td>
+            </tr>
+            <tr>
+                <td class="number b-b b-r notpointer">2</td>
+                <td class="ismfamilya b-b notpointer">Yangiboyev Kamol</td>
+                <td class="box b-x b-b">9-ball</td>
+                <td class="box b-b" onclick="minus()">---</td>
+                <td class="box b-x b-b" onclick="minus()">---</td>
+                <td class="box b-b" onclick="minus()">---</td>
+                <td class="box b-x b-b" onclick="minus()">---</td>
+                <td class="box b-b" onclick="minus()">---</td>
+                <td class="box b-x b-b" onclick="minus()">---</td>
+                <td class="box b-b">9-ball</td>
+            </tr>
+            <tr>
+                <td class="number b-b b-r notpointer">4</td>
+                <td class="ismfamilya b-b notpointer">Samatova Gulmira</td>
+                <td class="box b-x b-b">8-ball</td>
+                <td class="box b-b" onclick="minus()">---</td>
+                <td class="box b-x b-b" onclick="minus()">---</td>
+                <td class="box b-b" onclick="minus()">---</td>
+                <td class="box b-x b-b" onclick="minus()">---</td>
+                <td class="box b-b" onclick="minus()">---</td>
+                <td class="box b-x b-b" onclick="minus()">---</td>
+                <td class="box b-b">8-ball</td>
+            </tr>
+            <tr>
+                <td class="number b-b b-r notpointer">5</td>
+                <td class="ismfamilya b-b notpointer">Mamatqulov Fathulla</td>
+                <td class="box b-x b-b">7-ball</td>
+                <td class="box b-b" onclick="minus()">---</td>
+                <td class="box b-x b-b" onclick="minus()">---</td>
+                <td class="box b-b" onclick="minus()">---</td>
+                <td class="box b-x b-b" onclick="minus()">---</td>
+                <td class="box b-b" onclick="minus()">---</td>
+                <td class="box b-x b-b" onclick="minus()">---</td>
+                <td class="box b-b">7-ball</td>
+            </tr>
+
+            <!-- <tr>
+                <td></td>
             <td class="ismfamilya b-b">Usmonov Azimjon</td>
             <td class="box b-x b-b">10-ball</td>
             <td class="box b-b"></td>
@@ -77,36 +98,7 @@
             <td class="box b-l b-b"></td>
         </tr>
         <tr>
-            <td class="ismfamilya b-b">Samatova Gulmira</td>
-            <td class="box b-x b-b">9-ball</td>
-            <td class="box b-b"></td>
-            <td class="box b-x b-b"></td>
-            <td class="box b-b"></td>
-            <td class="box b-x b-b"></td>
-            <td class="box b-b"></td>
-            <td class="box b-l b-b"></td>
-        </tr>
-        <tr>
-            <td class="ismfamilya b-b">Yangiboyev Kamol</td>
-            <td class="box b-x b-b">10-ball</td>
-            <td class="box b-b"></td>
-            <td class="box b-x b-b"></td>
-            <td class="box b-b"></td>
-            <td class="box b-x b-b"></td>
-            <td class="box b-b"></td>
-            <td class="box b-l b-b"></td>
-        </tr>
-        <tr>
-            <td class="ismfamilya b-b">Mamatqulov Fathulla</td>
-            <td class="box b-x b-b">8-ball</td>
-            <td class="box b-b"></td>
-            <td class="box b-x b-b"></td>
-            <td class="box b-b"></td>
-            <td class="box b-x b-b"></td>
-            <td class="box b-b"></td>
-            <td class="box b-l b-b"></td>
-        </tr>
-        <!-- <tr>
+                <td></td>
             <td class="ismfamilya b-b">Usmonov Azimjon</td>
             <td class="box b-x b-b">10-ball</td>
             <td class="box b-b"></td>
@@ -117,6 +109,7 @@
             <td class="box b-l b-b"></td>
         </tr>
         <tr>
+                <td></td>
             <td class="ismfamilya b-b">Usmonov Azimjon</td>
             <td class="box b-x b-b">10-ball</td>
             <td class="box b-b"></td>
@@ -127,6 +120,7 @@
             <td class="box b-l b-b"></td>
         </tr>
         <tr>
+                <td></td>
             <td class="ismfamilya b-b">Usmonov Azimjon</td>
             <td class="box b-x b-b">10-ball</td>
             <td class="box b-b"></td>
@@ -137,26 +131,7 @@
             <td class="box b-l b-b"></td>
         </tr>
         <tr>
-            <td class="ismfamilya b-b">Usmonov Azimjon</td>
-            <td class="box b-x b-b">10-ball</td>
-            <td class="box b-b"></td>
-            <td class="box b-x b-b"></td>
-            <td class="box b-b"></td>
-            <td class="box b-x b-b"></td>
-            <td class="box b-b"></td>
-            <td class="box b-l b-b"></td>
-        </tr>
-        <tr>
-            <td class="ismfamilya b-b">Usmonov Azimjon</td>
-            <td class="box b-x b-b">10-ball</td>
-            <td class="box b-b"></td>
-            <td class="box b-x b-b"></td>
-            <td class="box b-b"></td>
-            <td class="box b-x b-b"></td>
-            <td class="box b-b"></td>
-            <td class="box b-l b-b"></td>
-        </tr>
-        <tr>
+                <td></td>
             <td class="ismfamilya b-b">Usmonov Azimjon</td>
             <td class="box b-x b-b">10-ball</td>
             <td class="box b-b"></td>
@@ -166,7 +141,8 @@
             <td class="box b-b"></td>
             <td class="box b-l b-b"></td>
         </tr> -->
-        <!-- <tr>
+            <!-- <tr>
+                <td></td>
             <td class="ismfamilya b-b">Usmonov Azimjon</td>
             <td class="box b-x b-b">10-ball</td>
             <td class="box b-b"></td>
@@ -176,16 +152,29 @@
             <td class="box b-b"></td>
             <td class="box b-l b-b"></td>
         </tr> -->
-        <tr>
-            <td>-</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
+            <tr class="notpointer">
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </table>
+    </section>
+    <section id="minus" class="d-none">
+        <h1>Bu masalaga yechim jo'natilmagan.</h1>
+    </section>
+    <section id="U_Mashhura">
+        <div id="U_M_1" class="masala1 d-none">
+            <img src="./U_Mashhura/masala1.png" alt="Bu yerda 1-masala yechimi bor">
+        </div>
+    </section>
+    <script src="./app.js"></script>
 </body>
 
 </html>
