@@ -5,6 +5,24 @@ const MINUS = document.getElementById("minus");
 
 let isBoolean = true;
 
+
+
+// Abduqodirova Dilshoda
+// 1-masala
+const AD1masala = document.getElementById("A_D_1");
+// 2-masala
+const AD2masala = document.getElementById("A_D_2");
+// 3-masala
+// 4-masala
+const AD4masala = document.getElementById("A_D_4");
+// 5-masala
+// 6-masala
+// 7-masala
+// 8-masala
+// 9-masala
+// 10-masala
+
+
 // Ulashev Mashhura
 // 1-masala
 const UM1masala = document.getElementById("U_M_1");
@@ -98,6 +116,48 @@ function minus() {
         MINUS.classList.add("d-none");
         isBoolean = true;
 
+    }
+}
+
+
+// Abduqodirova Dilshoda
+
+// 1-masala
+function ADmasala1() {
+    if (isBoolean) {
+        all();
+        AD1masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        AD1masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+
+function ADmasala2() {
+    if (isBoolean) {
+        all();
+        AD2masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        AD2masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+
+function ADmasala4() {
+    if (isBoolean) {
+        all();
+        AD4masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        AD4masala.classList.add("d-none");
+        isBoolean = true;
     }
 }
 
@@ -250,6 +310,118 @@ function MFmasala1() {
     } else {
         more();
         MF1masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+
+
+/*
+
+
+
+
+*/
+// USER
+
+// 1-masala
+const USER1masala = document.getElementById("USER_1");
+// 2-masala
+const USER2masala = document.getElementById("USER_2");
+// 3-masala
+const USER3masala = document.getElementById("USER_3");
+// 4-masala
+const USER4masala = document.getElementById("USER_4");
+// 5-masala
+const USER5masala = document.getElementById("USER_5");
+// 6-masala
+const USER6masala = document.getElementById("USER_6");
+// 7-masala
+const USER7masala = document.getElementById("USER_7");
+// 8-masala
+// 9-masala
+// 10-masala
+
+function USERmasala1() {
+    if (isBoolean) {
+        all();
+        USER1masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER1masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala2() {
+    if (isBoolean) {
+        all();
+        USER2masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER2masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala3() {
+    if (isBoolean) {
+        all();
+        USER3masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER3masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala4() {
+    if (isBoolean) {
+        all();
+        USER4masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER4masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala5() {
+    if (isBoolean) {
+        all();
+        USER5masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER5masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala6() {
+    if (isBoolean) {
+        all();
+        USER6masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER6masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala7() {
+    if (isBoolean) {
+        all();
+        USER7masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER7masala.classList.add("d-none");
         isBoolean = true;
     }
 }
