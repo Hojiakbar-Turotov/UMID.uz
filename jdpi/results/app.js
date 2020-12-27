@@ -2,8 +2,21 @@ const TABLE = document.getElementById("table");
 
 const MINUS = document.getElementById("minus");
 
+const MAXBALL = document.getElementById("maxball");
+
 
 let isBoolean = true;
+
+
+function all() {
+    TABLE.classList.add("d-none");
+    MAXBALL.classList.remove("d-none")
+}
+
+function more() {
+    TABLE.classList.remove("d-none");
+    MAXBALL.classList.add("d-none")
+}
 
 
 
@@ -98,13 +111,6 @@ const MF1masala = document.getElementById("M_F_1");
 // 10-masala
 
 
-function all() {
-    TABLE.classList.add("d-none");
-}
-
-function more() {
-    TABLE.classList.remove("d-none");
-}
 
 function minus() {
     if (isBoolean) {
