@@ -1,6 +1,11 @@
 <?php
 date_default_timezone_set('Asia/Tashkent');
-define('API_KEY', '1455550727:AAFEbahKLAPUTbvz6sh0xlMLYT1K9awhle8')
+define('API_KEY', '1496642290:AAF5kWoj5cKaichit452e_FNicJe6Are0KY')
+
+// http://umid-uz.netlify.app/botjdpi.php
+
+// https://api.telegram.org/bot1496642290:AAF5kWoj5cKaichit452e_FNicJe6Are0KY/setWebHook?url=http://umid-uz.netlify.app/botjdpi.php
+
 
 function bot($method, $datas = []){
     $url = "https://api.telegram.org/bot".API_KEY."/" . $method;
