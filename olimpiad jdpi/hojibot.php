@@ -1,7 +1,7 @@
-<? 
+<?php
 date_default_timezone_set('Asia/Tashkent');
-define('API_KEY', '1455550727:AAFRUKsA_Lm8_uqCucnoyInomP5gQwpI-60');
-//https://api.telegram.org/bot1455550727:AAFRUKsA_Lm8_uqCucnoyInomP5gQwpI-60/setWebHook?url=https://github.com/Hojiakbar-Turotov/UMID.uz/blob/main/olimpiad%20jdpi/hojibot.php
+define('API_KEY', '1455550727:AAFEbahKLAPUTbvz6sh0xlMLYT1K9awhle8');
+//https://api.telegram.org/1455550727:AAFEbahKLAPUTbvz6sh0xlMLYT1K9awhle8/setWebHook?url=https://github.com/Hojiakbar-Turotov/UMID.uz/blob/main/olimpiad%20jdpi/hojibot.php
 function bot($method, $datas = []){
     $url = "https://api.telegram.org/bot".API_KEY."/" . $method;
     $ch = curl_init();
@@ -51,3 +51,4 @@ if($text != "/start"){
         'message_id' => $message_id,
     ]);
 };
+?>
