@@ -15,6 +15,10 @@ td {
     color: #00ff;
 }
 
+a {
+    color: #551a88;
+}
+
 .notpointer>td,
 .notpointer {
     cursor: context-menu;
