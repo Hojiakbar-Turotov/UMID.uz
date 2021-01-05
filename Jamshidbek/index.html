@@ -13,7 +13,29 @@
 
 <body>
     <header id="open">
-
+        <div class="container-md">
+            <h1>
+                ... ga hush kelibsiz!
+            </h1>
+            <div id="corusel">
+                <h3>
+                    Siz bu yerga o'z reklamangizni joylashtirmoqchimisiz?<br> Unda bizga murojat qiling...
+                </h3>
+            </div>
+            <div id="newletter">
+                <form action="./demo.php" method="POST" autocomplete="off">
+                    <div class="input-container yozmaslik" id="input-container">
+                        <input type="text" name="user_name" class="input" id="input" placeholder="Ismingiz:">
+                        <span>Ismingiz:</span>
+                    </div>
+                    <div class="input-container yozmaslik" id="textarea-container">
+                        <input type="text" name="user_comment" id="textarea" class="textarea" placeholder="Fikringizni bildiring:">
+                        <span>Fikringizni bildiring:</span>
+                    </div>
+                    <input type="submit" value="Jo'natish">
+                </form>
+            </div>
+        </div>
         <div class="container">
 
             <i class="fa fa-user-circle fa-5x user"></i><br>
@@ -40,6 +62,8 @@
     </header>
 
     <script src="./app.js"></script>
+    <script>
+    </script>
 </body>
 
 </html>

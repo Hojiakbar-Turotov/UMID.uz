@@ -49,3 +49,26 @@ document.getElementById('password').onkeyup = function() {
         OGOHLANTIRISH.innerText = '';
     }
 }
+
+
+// input style js kodlari
+
+const inputs = document.getElementById('input-container');
+
+document.getElementById('input').onkeyup = function() {
+    if (this.value.length >= 1) {
+        inputs.classList.remove("yozmaslik");
+    } else {
+        inputs.classList.add("yozmaslik");
+    }
+}
+
+const textareas = document.getElementById('textarea-container');
+
+document.getElementById('textarea').onkeyup = function() {
+    if (this.value.length >= 1) {
+        textareas.classList.remove("yozmaslik");
+    } else {
+        textareas.classList.add("yozmaslik");
+    }
+}

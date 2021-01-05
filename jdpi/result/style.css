@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+#table {
+    overflow: auto;
+}
+
+.day {
+    background-color: #00000011;
+}
+
+.day p {
+    font-size: 36px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+
+/* .day section {} */
+
+.day table {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    text-align: center;
+    margin: 2px auto;
+}
+
+.day table tr td {
+    cursor: pointer;
+    color: #00ff;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+
+/* td */
+
+.td-urin {
+    width: 50px;
+}
+
+.td-FISH {
+    width: 200px;
+}
+
+.td-box {
+    width: 100px
+}
+
+.td-result {
+    width: 50px
+}
+
+
+/* display */
+
+
+/*  */
+
+#fantamas {
+    opacity: 0;
+}

@@ -6,6 +6,10 @@
 
 /* 'Indie Flower', cursive */
 
+body {
+    overflow: auto;
+}
+
 #masala {
     background-color: #00000011;
     width: 300px;
@@ -43,4 +47,25 @@
 
 .p .u {
     font-size: 17px;
+}
+
+span.opasity0 {
+    opacity: 0;
+}
+
+sup {
+    font-size: 60%;
+}
+
+sub {
+    position: relative;
+    font-size: 60%;
+}
+
+.sub3 {
+    left: 9px;
+}
+
+.sub1 {
+    left: 3px;
 }
