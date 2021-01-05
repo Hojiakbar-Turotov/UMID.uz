@@ -1,0 +1,190 @@
+body {
+    overflow-x: hidden;
+    font-family: sans-serif;
+    background: rgba(16, 16, 16, 0.2);
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+    border-left: #444 3px solid;
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: url('../img/image1.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url('../img/image2.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: url('../img/image3.jpg');
+    background-size: cover;
+}
+
+.text-green {
+    color: #28a745;
+}
+
+.text-red {
+    color: #dc3545;
+}
+
+.text-blue {
+    color: #007bff;
+}
+
+.text-black {
+    color: #000;
+}
+
+#bg-box {
+    background-image: url(../img/lights.jpg);
+    background-attachment: fixed;
+    min-height: 300px;
+    position: relative;
+}
+
+.dark-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .7;
+}
+
+#what-we-do {
+    background-image: url(../img/media.jpg);
+    background-attachment: fixed;
+    position: relative;
+    min-height: 200px;
+}
+
+#language {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    width: 60px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 2px none;
+    border-radius: 25%;
+    color: #111;
+    background-color: rgba(200, 200, 200, .4);
+    z-index: 2;
+}
+
+#language:hover,
+#language:active {
+    border: none;
+    border-radius: 25%;
+    background-color: rgba(30, 138, 210, .4);
+}
+
+#home-icons .carousel-caption {
+    top: 0;
+    padding-top: 0;
+}
+
+.ilmiy-item {
+    height: 300px;
+}
+
+.box-height {
+    height: 100px;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.fontImgAboutUs {
+    background-image: url("../img/image2.jpg");
+    width: 100%;
+    min-height: 40vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#myPhisy h5>select {
+    border: 2px none;
+    border-radius: 20%;
+}
+
+#myPhisy h5>select:hover,
+#myPhisy h5>select:active,
+#myPhisy h5>select option:hover,
+#myPhisy h5>select option:active {
+    border-style: none;
+    border-bottom-style: solid;
+    border-radius: 25%;
+}
+
+.fontImgServices {
+    background-image: url("../img/image1.jpg");
+    width: 100%;
+    min-height: 40vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#fikr-qoldirish-tugmasi{
+    z-index: 7;
+    position: fixed;
+    bottom: 50px;
+    left: 5px;
+}
+
+#fikr-qoldirish-tugmasi .fikr-qoldirish-tugmasi{
+    z-index: 7;
+}
+
+#fikr-qoldirish-tugmasi .fikr-qoldirish-tugmasi a{
+    z-index: 7;
+    text-decoration: none;
+}
+
+#newletter,
+#newletter form,
+#newletter form .container {
+    z-index: 9;
+}
+
+.about-background {
+    background-attachment: fixed;
+    background-image: url("../img/img-font/about-baground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-for-about {
+    background-color: rgba(16, 16, 16, .7);
+    opacity: .9;
+}
+
+.fontImgBlog{
+    background-image: url("../img/img-font/services-showcase.jpg");
+    width: 100%;
+    min-height: 40vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}

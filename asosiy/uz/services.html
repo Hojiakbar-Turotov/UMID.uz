@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style-one.css">
+    <link rel="stylesheet" href="../vendors/css/all.css">
+    <link rel="stylesheet" href="../vendors/bootstrap.css">
+    <link rel="stylesheet" href="../css/style-two.css">
+    <link rel="icon" href="../img/icons/image-servise.png">
+    <title>Umid.uz</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <a href="../index.html" class="navbar-brand">Xojiakbar <span style="padding: 10px;"></span> Turotov</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">Asosiy</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="./services.html" class="nav-link">Xizmatlar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./about.html" class="nav-link">Ma'lumot</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="myStart" class="fontImgServices">
+            <div class="container text-center text-blue pt-5">
+                <h1>HAYRLI TONG.</h1>
+                <h3 class="text-right">ELGA XIZMAT - OLIY XIMMAT!</h3>
+                <h5 class="text-left">Bizning saytda o'zingizga kerak mahsulot va xizmat turini topasiz degan umiddamiz. Siz esa uyda o'tirgan holda o'z ehtiyojingizni qondiring. Hamda o'z fikr va mulohazalaringizni boshqalar bilan baham ko'ring. <br> Eng muhimi ishonch. Siz bizga ishoning. Biz esa ishonchingizni oqlaymiz.</h5>
+            </div>
+        </section>
+    </header>
+    <section id="fikr-qoldirish-tugmasi">
+        <div class="btn btn-outline-dark fikr-qoldirish-tugmasi"><a href="../index.html#newletter">Fikr qoldirish.</a></div>
+    </section>
+    <section id="myPhisy" class="pt-3 bg-dark text-white">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="../img/img-font/fizika.jpg" alt="" srcset="" class="img-fluid my-3">
+                </div>
+                <div class="col-md-10">
+                    <h2 class="pt-3 pb-2">Fizika</h2>
+                    <h4 class=" text-right">Fizikani online o'rganing va ko'plab yutug'larga erishing. <br> Bu borada sizga bizning jamoamiz yordam beradi. <br> Siz quidagi fizika o'qituvchilarimizdan birini tanlang va tayyorgarlik ko'rishni boshlang. <br>Zero bilmaslik gunoh
+                        emas, balki bilim olish imkoniyatidan foydalanmaslik gunohdir.</h4>
+                </div>
+            </div>
+            <div id="myTeacher" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myTeacher" data-slide-to="0" class="active"></li>
+                    <li data-target="#myTeacher" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner text-white">
+                    <div class="carousel-item active mt-0">
+                        <div id="newletter" class="container">
+                            <div class="carousel-caption d-none d-sm-block position-relative">
+                                <form action="../php/teacher.php" method="post" autocomplete="off" class=" form-phisy">
+                                    <label for="" class=" container">
+                                        <h4 class="py-2">
+                                            Hojiakbar Turotov
+                                        </h4>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p class=" text-left">
+                                                Dars o'tish : <span class=" text-right float-right"> Telegramm orqali. </span> <br> Narxi : <span class=" text-right float-right"> 70000so'm.</span> <br> Saytda ariza qoldirish orqali : <span class=" text-right float-right">20000so'm chegirma.</span><br>Darslar
+                                                berish : <span class=" text-right float-right">Video holida.</span><br>Darslar tartibi: <span class=" text-right float-right">Kun ora.</span><br>Dars vaqti : <span class=" text-right float-right">14:00-16:00.</span><br>Imtiyoz
+                                                : Shu o'qituvchining bir nechta gruppasida tayyorlansangiz ham to'lov o'zgarmaydi. Faqat vazifalar to'liq bajarish kerak.<br>Dars muddati : <span class=" text-right float-right">Imtihongacha.</span><br>Eslatma
+                                                : Agar vaqt kam qolgan bo'lsa tezlashtirilgan gruppa bor. <br>Darslar o'zbek tilida o'tiladi. </p>
+                                        </div>
+                                        <div class="col-md-4 input-container textarea">
+                                            <div class="input-container">
+                                                <input type="text" name="user_name" class="form-control input text-white" />
+                                                <label for="">Ismingiz:</label>
+                                                <span>Ismingiz:</span>
+                                            </div>
+                                            <div class="input-container">
+                                                <input type="tel" name="user_phone" class="form-control input" />
+                                                <label for="">Telefon:</label>
+                                                <span>Telefon:</span>
+                                            </div>
+                                            <div class="input-container" title="Sizga maqul kunlarni yozing!">
+                                                <input type="text" name="user_day" class="form-control input" />
+                                                <label for="">Darslar qaysi kuni bo'lsin:</label>
+                                                <span>Darslar qaysi kunlari bo'lsin:</span>
+                                            </div>
+                                            <input type="submit" class="btn btn-secondary my-3 rigth rounded-right float-right" value="Jo'natish">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item mt-0">
+                        <div id="newletter" class="container align-content-center align-items-center align-self-center center">
+                            <div class="carousel-caption d-none d-sm-block position-relative">
+                                <div class="row">
+                                    <div class="col-md-9 mt-5 pt-5">
+                                        <h2 class="pt-5 mt-5">Hozircha Fizikadan boshqa o'qituchimiz yoq.</h2>
+                                        <h4>Sizning ismingiz ham shu yerda bo'lishini istaysimi?<span class=" text-right float-right"><a href="http://t.me/h_turotov">Biz bilan bog'laning.</a></span> <br>Telefon : <span class=" text-right float-right">+998933057927</span></h4>
+                                    </div>
+                                </div>
+                                <!-- <form action="../php/teacher.php" method="post" autocomplete="off" class=" form-phisy">
+                                    <label for="" class=" container">
+                                        <h4 class="py-2">
+                                            Hojiakbar Turotov
+                                        </h4>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p class=" text-left">
+                                                Dars o'tish : <span class=" text-right float-right"> Telegramm orqali. </span> <br> Narxi : <span class=" text-right float-right"> 70000so'm.</span> <br> Saytda ariza qoldirish orqali : <span class=" text-right float-right">20000so'm chegirma.</span><br>Darslar
+                                                berish : <span class=" text-right float-right">Video holida.</span><br>Darslar tartibi: <span class=" text-right float-right">Kun ora.</span><br>Dars vaqti : <span class=" text-right float-right">15:00-18:00.</span><br>Imtiyoz
+                                                : <span class=" text-right float-right">Shu o'qituvchining bir nechta gruppasida tayyorlansangiz ham to'lov o'zgarmaydi. Faqat vazifalar to'liq bajarish kerak.</span>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4 input-container textarea">
+                                            <div class="input-container">
+                                                <input type="text" name="user_name" class="form-control input" />
+                                                <label for="">Ismingiz:</label>
+                                                <span>Ismingiz:</span>
+                                            </div>
+                                            <div class="input-container">
+                                                <input type="tel" name="user_phone" class="form-control input" />
+                                                <label for="">Telefon:</label>
+                                                <span>Telefon:</span>
+                                            </div>
+                                            <div class="input-container" title="Sizga maqul kunlarni yozing!">
+                                                <input type="text" name="user_day" class="form-control input" />
+                                                <label for="">Darslar qaysi kuni bo'lsin:</label>
+                                                <span>Darslar qaysi kunlari bo'lsin:</span>
+                                            </div>
+                                            <input type="submit" class="btn btn-secondary my-3 rigth rounded-right float-right" value="Jo'natish">
+                                        </div>
+                                    </div>
+                                </form> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#myTeacher" data-slide="prev" class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#myTeacher" data-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="myMath" class="pt-3 bg-dark text-white">
+        <div class="container text-center">
+            <div class="row pt-5">
+                <div class="col-md-2">
+                    <img src="../img/img-font/matematika.jpg" alt="" srcset="" class="img-fluid my-3 align-items-center pt-3">
+                </div>
+                <div class="col-md-10">
+                    <h2 class=" pb-2">Matematika</h2>
+                    <h5 class=" text-right">Matematikani online o'rganing va ko'plab yutug'larga erishing. <br> Bu borada sizga bizning jamoamiz yordam beradi. <br> Siz quidagi matematika o'qituvchilarimizdan birini tanlang va tayyorgarlik ko'rishni boshlang. <br>Zero bilmaslik
+                        gunoh emas, balki bilim olish imkoniyatidan foydalanmaslik gunohdir.</h5>
+                </div>
+            </div>
+            <div id="myTeachermath" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myTeachermath" data-slide-to="0" class="active"></li>
+                    <li data-target="#myTeachermath" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner text-white">
+                    <div class="carousel-item active mt-0">
+                        <div id="newletter" class="container">
+                            <div class="carousel-caption d-none d-sm-block position-relative">
+                                <form action="../php/teacher.php" method="post" autocomplete="off" class=" form-phisy">
+                                    <label for="" class=" container">
+                                        <h4 class="py-2">
+                                            Hojiakbar Turotov
+                                        </h4>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p class=" text-left">
+                                                Dars o'tish : <span class=" text-right float-right"> Telegramm orqali. </span> <br> Narxi : <span class=" text-right float-right"> 70000so'm.</span> <br> Saytda ariza qoldirish orqali : <span class=" text-right float-right">20000so'm chegirma.</span><br>Darslar
+                                                berish : <span class=" text-right float-right">Video holida.</span><br>Darslar tartibi: <span class=" text-right float-right">Kun ora.</span><br>Dars vaqti : <span class=" text-right float-right">16:00-18:00.</span><br>Imtiyoz
+                                                : Shu o'qituvchining bir nechta gruppasida tayyorlansangiz ham to'lov o'zgarmaydi. Faqat vazifalar to'liq bajarish kerak.<br>Dars muddati : <span class=" text-right float-right">Imtihongacha.</span><br>Eslatma
+                                                : Agar vaqt kam qolgan bo'lsa tezlashtirilgan gruppa bor. <br>Darslar o'zbek tilida o'tiladi.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4 input-container textarea">
+                                            <div class="input-container">
+                                                <input type="text" name="user_name" class="form-control input" />
+                                                <label for="">Ismingiz:</label>
+                                                <span>Ismingiz:</span>
+                                            </div>
+                                            <div class="input-container">
+                                                <input type="tel" name="user_phone" class="form-control input" />
+                                                <label for="">Telefon:</label>
+                                                <span>Telefon:</span>
+                                            </div>
+                                            <div class="input-container" title="Sizga maqul kunlarni yozing!">
+                                                <input type="text" name="user_day" class="form-control input" />
+                                                <label for="">Darslar qaysi kuni bo'lsin:</label>
+                                                <span>Darslar qaysi kunlari bo'lsin:</span>
+                                            </div>
+                                            <input type="submit" class="btn btn-secondary my-3 rigth rounded-right float-right" value="Jo'natish">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item mt-0">
+                        <div id="newletter" class="container align-content-center align-items-center align-self-center center">
+                            <div class="carousel-caption d-none d-sm-block position-relative">
+                                <div class="row">
+                                    <div class="col-md-9 mt-5 pt-5">
+                                        <h2 class="pt-5 mt-5">Hozircha Matematikadan boshqa o'qituchimiz yoq.</h2>
+                                        <h4>Sizning ismingiz ham shu yerda bo'lishini istaysimi?<span class=" text-right float-right"><a href="http://t.me/h_turotov">Biz bilan bog'laning.</a></span> <br>Telefon : <span class=" text-right float-right">+998933057927</span></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#myTeachermath" data-slide="prev" class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#myTeachermath" data-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="myWebteach" class="pt-3 bg-dark text-white">
+        <div class="container text-center">
+            <div class="row pt-5">
+                <div class="col-md-2">
+                    <img src="../img/img-font/html.png" alt="" srcset="" class="img-fluid align-items-center">
+                </div>
+                <div class="col-md-10">
+                    <h2 class=" pb-2">Frond-End dasturlash</h2>
+                    <h5 class=" text-right">Web sayt yaratishni online o'rganing va ko'plab yutug'larga erishing. <br> Bu borada sizga bizning jamoamiz yordam beradi. <br> Siz quidagi Web sayt yaratuvchi o'qituvchilarimizdan birini tanlang va tayyorgarlik ko'rishni boshlang.
+                        <br>Zero bilmaslik gunoh emas, balki bilim olish imkoniyatidan foydalanmaslik gunohdir.</h5>
+                </div>
+            </div>
+            <div id="myTeacherwebteach" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myTeacherwebteach" data-slide-to="0" class="active"></li>
+                    <li data-target="#myTeacherwebteach" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner text-white">
+                    <div class="carousel-item active mt-0">
+                        <div id="newletter" class="container">
+                            <div class="carousel-caption d-none d-sm-block position-relative">
+                                <form action="../php/teacher.php" method="post" autocomplete="off" class=" form-phisy">
+                                    <label for="" class=" container">
+                                        <h4 class="py-2">
+                                            Hojiakbar Turotov
+                                        </h4>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p class=" text-left">
+                                                Dars o'tish : <span class=" text-right float-right"> Telegramm orqali. </span> <br> Narxi : <span class=" text-right float-right"> 100000so'm.</span> <br> Saytda ariza qoldirish orqali : <span class=" text-right float-right">30000so'm chegirma.</span><br>Darslar
+                                                berish : <span class=" text-right float-right">Amaliy va biroz nazariy.</span><br>Darslar tartibi: <span class=" text-right float-right">Har kuni.</span><br>Dars vaqti : <span class=" text-right float-right">19:00-21:00.</span><br>Imtiyoz
+                                                : Yaratgan Web saytlaringizni saytda bepul reklama qilinadi.<br>Dars muddati : <span class=" text-right float-right">3-oydan 6-oygacha.</span><br>Eslatma : Agar yaxshi o'zlashtirsangiz bir oyda sayt yaratishingiz
+                                                mumkin. <br>Darslar o'zbek tilida o'tiladi.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4 input-container textarea">
+                                            <div class="input-container">
+                                                <input type="text" name="user_name" class="form-control input" />
+                                                <label for="">Ismingiz:</label>
+                                                <span>Ismingiz:</span>
+                                            </div>
+                                            <div class="input-container">
+                                                <input type="tel" name="user_phone" class="form-control input" />
+                                                <label for="">Telefon:</label>
+                                                <span>Telefon:</span>
+                                            </div>
+                                            <input type="submit" class="btn btn-secondary mb-3 mt-5 rigth rounded-right float-right" value="Jo'natish">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item mt-0">
+                        <div id="newletter" class="container align-content-center align-items-center align-self-center center">
+                            <div class="carousel-caption d-none d-sm-block position-relative">
+                                <div class="row">
+                                    <div class="col-md-9 mt-5 pt-5">
+                                        <h2 class="pt-5 mt-5">Hozircha Web sayt yaratuvchi boshqa o'qituchimiz yoq.</h2>
+                                        <h4>Sizning ismingiz ham shu yerda bo'lishini istaysimi?<span class=" text-right float-right"><a href="http://t.me/h_turotov">Biz bilan bog'laning.</a></span> <br>Telefon : <span class=" text-right float-right">+998933057927</span></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#myTeacherwebteach" data-slide="prev" class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#myTeacherwebteach" data-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="myWebwork" class="pt-3 bg-dark text-white">
+        <div class="container text-center">
+            <div class="row pt-5">
+                <div class="col-md-2">
+                    <img src="../img/img-font/html.png" alt="" srcset="" class="img-fluid align-items-center">
+                </div>
+                <div class="col-md-10">
+                    <h2 class=" pb-2">Web sayt yaratish.</h2>
+                    <h5 class=" text-right">Siz o'z saytingiz bo'lishini istaysizmi? <br> Bu borada sizga bizning jamoamiz yordam beradi. <br>Sizga sifatli va hamyonbop narxda sayt tayyorlab beramiz.
+                        <br>Zero xarajatsiz harakat nolga teng.</h5>
+                </div>
+            </div>
+            <div id="myTeacherwebwork" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myTeacherwebwork" data-slide-to="0" class="active"></li>
+                    <li data-target="#myTeacherwebwork" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner text-white">
+                    <div class="carousel-item active mt-0">
+                        <div id="newletter" class="container">
+                            <div class="carousel-caption d-none d-sm-block position-relative">
+                                <form action="../php/teacher.php" method="post" autocomplete="off" class=" form-phisy">
+                                    <label for="" class=" container">
+                                        <h4 class="py-2 text-left float-left">
+                                            Saytingiz quidagi saytlarga o'xshasinmi yoki yanada ajoyib bo'lsinmi?
+                                        </h4>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p class=" text-left">
+                                                Sayt nomi : <span class=" text-right float-right"> Umid.uz </span> <br> Narxi : <span class=" text-right float-right"> 500000so'm.</span> <br> Saytda ariza qoldirish orqali : <span class=" text-right float-right">50000so'm chegirma.</span><br>Sayt
+                                                foydalanilgan tillar : <span class=" text-right float-right">HTML, CSS, JavaScript, PHP</span><br>Imtiyoz : Internetga joylash bepul.<br>Siz hoxlagan ko'rinishga keltirish muddati : <span class=" text-right float-right">3-7kun</span><br>Eslatma
+                                                : Agar ikki yoki undan ortiq web sayt sotib olsangiz qo'shimcha chegirmalar bor.
+                                                <br>Sayt 3tilda faoliyat ko'rsatadi.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4 input-container textarea">
+                                            <div class="input-container">
+                                                <input type="text" name="user_name" class="form-control input" />
+                                                <label for="">Ismingiz:</label>
+                                                <span>Ismingiz:</span>
+                                            </div>
+                                            <div class="input-container">
+                                                <input type="tel" name="user_phone" class="form-control input" />
+                                                <label for="">Telefon:</label>
+                                                <span>Telefon:</span>
+                                            </div>
+                                            <input type="submit" class="btn btn-secondary mb-3 mt-5 rigth rounded-right float-right" value="Jo'natish">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item mt-0">
+                        <div id="newletter" class="container align-content-center align-items-center align-self-center center">
+                            <div class="carousel-caption d-none d-sm-block position-relative">
+                                <div class="row">
+                                    <div class="col-md-9 mt-5 pt-5">
+                                        <h2 class="pt-5 mt-5">Hozircha barcha Web saytlarimiz shu.</h2>
+                                        <h4>Siz yaratgan sayt ham shu yerda sotilishini istaysimi?<span class=" text-right float-right"><a href="http://t.me/h_turotov">Biz bilan bog'laning.</a></span> <br>Telefon : <span class=" text-right float-right">+998933057927</span></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#myTeacherwebwork" data-slide="prev" class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#myTeacherwebwork" data-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="myReklamaall" class="pt-3 bg-dark text-white">
+        <div class="container text-center">
+            <div class="row pt-5">
+                <div class="col-md-2">
+                    <img src="../img/img-font/marketing.jpg" alt="" srcset="" class="img-fluid align-items-center">
+                </div>
+                <div class="col-md-10">
+                    <h2 class=" pb-2">Reklama</h2>
+                    <h5 class=" text-right">Siz o'z reklamangizni saytimizda ko'rishni istaysizmi? <br> Bu borada sizga bizning jamoamiz yordam beradi. <br>Sizning reklamangizni sifatli va hamyonbop narxda saytimizga joylaymiz.
+                        <br>Zero xarajatsiz harakat nolga teng.</h5>
+                </div>
+            </div>
+            <div id="myReklama" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myReklama" data-slide-to="0" class="active"></li>
+                    <li data-target="#myReklama" data-slide-to="1"></li>
+                    <li data-target="#myReklama" data-slide-to="2"></li>
+                    <li data-target="#myReklama" data-slide-to="3"></li>
+                    <li data-target="#myReklama" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner text-white">
+                    <div class="carousel-item active mt-0">
+                        <div id="newletter" class="container">
+                            <div class="carousel-caption d-none d-sm-block position-relative">
+                                <form action="../php/teacher.php" method="post" autocomplete="off" class=" form-phisy">
+                                    <label for="" class=" container">
+                                        <h4 class="py-2 text-left float-left">
+                                            Reklama joylashtirish uchun quidagi arizani to'ldiring yoki telegram orqali bog'laning.
+                                        </h4>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p class=" text-left">
+                                                Tarif nomi : <span class=" text-right float-right"> Gold </span> <br> Narxi : <span class=" text-right float-right"> 15000so'm.</span> <br> Saytda ariza qoldirish orqali : <span class=" text-right float-right">5000so'm chegirma.</span><br>                                                Reklama miqdori : <span class=" text-right float-right">1-sahifa</span><br>Muddati : <span class=" text-right float-right">1oy.</span><br>Siz hoxlagan ko'rinishga keltirish muddati : <span class=" text-right float-right">1-3kun</span><br>Eslatma
+                                                : Agar ikki yoki undan ortiq reklama tariflarini sotib olsangiz bu tarif bepul.
+                                                <br>Reklama 3tilda saytga joylashtiriladi.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4 input-container textarea">
+                                            <div class="input-container">
+                                                <input type="text" name="user_name" class="form-control input" />
+                                                <label for="">Ismingiz:</label>
+                                                <span>Ismingiz:</span>
+                                            </div>
+                                            <div class="input-container">
+                                                <input type="tel" name="user_phone" class="form-control input" />
+                                                <label for="">Telefon:</label>
+                                                <span>Telefon:</span>
+                                            </div>
+                                            <input type="submit" class="btn btn-secondary mb-3 mt-5 rigth rounded-right float-right" value="Jo'natish">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item mt-0">
+                        <div id="newletter" class="container">
+                            <div class="carousel-caption d-none d-sm-block position-relative">
+                                <form action="../php/teacher.php" method="post" autocomplete="off" class=" form-phisy">
+                                    <label for="" class=" container">
+                                        <h4 class="py-2 text-left float-left">
+                                            Reklama joylashtirish uchun quidagi arizani to'ldiring yoki telegram orqali bog'laning.
+                                        </h4>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p class=" text-left">
+                                                Tarif nomi : <span class=" text-right float-right"> Platina </span> <br> Narxi : <span class=" text-right float-right"> 25000so'm.</span> <br> Saytda ariza qoldirish orqali : <span class=" text-right float-right">10000so'm chegirma.</span><br>Reklama
+                                                miqdori : <span class=" text-right float-right">1-sahifadan 3-sahifagacha.</span><br>Muddati : <span class=" text-right float-right">1.5oy.</span><br>Siz hoxlagan ko'rinishga keltirish muddati :
+                                                <span class=" text-right float-right">1-3kun</span><br>Eslatma : Agar ikki yoki undan ortiq reklama tariflarini sotib olsangiz bu tarif narxi 5000so'm.
+                                                <br>Reklama 3tilda saytga joylashtiriladi.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4 input-container textarea">
+                                            <div class="input-container">
+                                                <input type="text" name="user_name" class="form-control input" />
+                                                <label for="">Ismingiz:</label>
+                                                <span>Ismingiz:</span>
+                                            </div>
+                                            <div class="input-container">
+                                                <input type="tel" name="user_phone" class="form-control input" />
+                                                <label for="">Telefon:</label>
+                                                <span>Telefon:</span>
+                                            </div>
+                                            <input type="submit" class="btn btn-secondary mb-3 mt-5 rigth rounded-right float-right" value="Jo'natish">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item mt-0">
+                        <div id="newletter" class="container">
+                            <div class="carousel-caption d-none d-sm-block position-relative">
+                                <form action="../php/teacher.php" method="post" autocomplete="off" class=" form-phisy">
+                                    <label for="" class=" container">
+                                        <h4 class="py-2 text-left float-left">
+                                            Reklama joylashtirish uchun quidagi arizani to'ldiring yoki telegram orqali bog'laning.
+                                        </h4>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p class=" text-left">
+                                                Tarif nomi : <span class=" text-right float-right"> Gold+ </span> <br> Narxi : <span class=" text-right float-right"> 45000so'm.</span> <br> Saytda ariza qoldirish orqali : <span class=" text-right float-right">15000so'm chegirma.</span><br>Reklama
+                                                miqdori : <span class=" text-right float-right">1-sahifadan 5-sahifagacha.</span><br>Muddati : <span class=" text-right float-right">2oy.</span><br>Siz hoxlagan ko'rinishga keltirish muddati :
+                                                <span class=" text-right float-right">1-3kun</span><br>Eslatma : Agar ikki yoki undan ortiq reklama tariflarini sotib olsangiz bu tarif narxi 15000so'm.
+                                                <br>Reklama 3tilda saytga joylashtiriladi.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4 input-container textarea">
+                                            <div class="input-container">
+                                                <input type="text" name="user_name" class="form-control input" />
+                                                <label for="">Ismingiz:</label>
+                                                <span>Ismingiz:</span>
+                                            </div>
+                                            <div class="input-container">
+                                                <input type="tel" name="user_phone" class="form-control input" />
+                                                <label for="">Telefon:</label>
+                                                <span>Telefon:</span>
+                                            </div>
+                                            <input type="submit" class="btn btn-secondary mb-3 mt-5 rigth rounded-right float-right" value="Jo'natish">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item mt-0">
+                        <div id="newletter" class="container">
+                            <div class="carousel-caption d-none d-sm-block position-relative">
+                                <form action="../php/teacher.php" method="post" autocomplete="off" class=" form-phisy">
+                                    <label for="" class=" container">
+                                        <h4 class="py-2 text-left float-left">
+                                            Reklama joylashtirish uchun quidagi arizani to'ldiring yoki telegram orqali bog'laning.
+                                        </h4>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p class=" text-left">
+                                                Tarif nomi : <span class=" text-right float-right"> Platina+ </span> <br> Narxi : <span class=" text-right float-right"> 70000so'm.</span> <br> Saytda ariza qoldirish orqali : <span class=" text-right float-right">20000so'm chegirma.</span><br>Reklama
+                                                miqdori : <span class=" text-right float-right">1-sahifadan 7-sahifagacha.</span><br>Muddati : <span class=" text-right float-right">3oy.</span><br>Siz hoxlagan ko'rinishga keltirish muddati :
+                                                <span class=" text-right float-right">2-5kun</span><br>Eslatma : Agar ikki yoki undan ortiq reklama tariflarini sotib olsangiz bu tarif narxi 25000so'm.
+                                                <br>Reklama 3tilda saytga joylashtiriladi.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4 input-container textarea">
+                                            <div class="input-container">
+                                                <input type="text" name="user_name" class="form-control input" />
+                                                <label for="">Ismingiz:</label>
+                                                <span>Ismingiz:</span>
+                                            </div>
+                                            <div class="input-container">
+                                                <input type="tel" name="user_phone" class="form-control input" />
+                                                <label for="">Telefon:</label>
+                                                <span>Telefon:</span>
+                                            </div>
+                                            <input type="submit" class="btn btn-secondary mb-3 mt-5 rigth rounded-right float-right" value="Jo'natish">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item mt-0">
+                        <div id="newletter" class="container">
+                            <div class="carousel-caption d-none d-sm-block position-relative">
+                                <form action="../php/teacher.php" method="post" autocomplete="off" class=" form-phisy">
+                                    <label for="" class=" container">
+                                        <h4 class="py-2 text-left float-left">
+                                            Reklama joylashtirish uchun quidagi arizani to'ldiring yoki telegram orqali bog'laning.
+                                        </h4>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p class=" text-left">
+                                                Tarif nomi : <span class=" text-right float-right"> Super </span> <br> Narxi : <span class=" text-right float-right"> 125000so'm.</span> <br> Saytda ariza qoldirish orqali : <span class=" text-right float-right">25000so'm chegirma.</span><br>Reklama
+                                                miqdori : <span class=" text-right float-right">Qo'shimcha sayt barcha sahifalarda qisqa reklama.</span><br>Muddati : <span class=" text-right float-right">3oy.</span><br>Siz hoxlagan ko'rinishga keltirish
+                                                muddati :
+                                                <span class=" text-right float-right">3-7kun</span><br>Eslatma : Agar ikki yoki undan ortiq reklama tariflarini sotib olsangiz bu tarif narxi 50000so'm.
+                                                <br>Reklama 3tilda saytga joylashtiriladi.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4 input-container textarea">
+                                            <div class="input-container">
+                                                <input type="text" name="user_name" class="form-control input" />
+                                                <label for="">Ismingiz:</label>
+                                                <span>Ismingiz:</span>
+                                            </div>
+                                            <div class="input-container">
+                                                <input type="tel" name="user_phone" class="form-control input" />
+                                                <label for="">Telefon:</label>
+                                                <span>Telefon:</span>
+                                            </div>
+                                            <input type="submit" class="btn btn-secondary mb-3 mt-5 rigth rounded-right float-right" value="Jo'natish">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#myReklama" data-slide="prev" class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#myReklama" data-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer id="main-footer" class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy;
+                        <span id="year"></span> Hojiakbar Turotov</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../vendors/js/jquery.js"></script>
+    <script src="../vendors/js/popper.js"></script>
+    <script src="../vendors/js/bootstrap.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
