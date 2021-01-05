@@ -5,8 +5,6 @@ $token = "1381671073:AAHrEusnKxBgqFncTp2kws7JJZaoBlMLTFI";
 $chat_id = "-298729605";
 $arr = array(
   '💁‍♂️ Имя пользователя: ' => $name,
-  '📱 Телефон: ' => $phone,
-  '🌐 Email: ' => $email,
   '📜 Отзыв клиента: ' => $comment
 );
 
@@ -17,8 +15,8 @@ foreach($arr as $key => $value) {
 $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
 
 if ($sendToTelegram) {
-  header('Location: rahmat.html');
+  header('Location: https://umid-uz.netlify.app/jamshidbek/');
 } else {
-  header('Location: xato.html');
+  header('Location: https://umid-uz.netlify.app/jamshidbek/');
 }
 ?>
