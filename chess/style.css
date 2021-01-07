@@ -1,0 +1,15 @@
+#view>aside>div>h3.autoplay {
+    position: absolute;
+    left: -150px;
+    color: #000;
+    font-size: 15px;
+}
+
+#view>aside>div>h3.autoplay>span {
+    font-size: 19px;
+}
+
+#view>aside>div>h3.autoplay>div.autoplayercolors>label {
+    position: absolute;
+    left: -150px;
+}
