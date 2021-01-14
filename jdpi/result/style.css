@@ -22,44 +22,76 @@
 /* .day section {} */
 
 .day table {
-    border-top: 1px solid #000;
-    border-left: 1px solid #000;
+    /* border-top: 1px solid #000; */
     text-align: center;
     margin: 2px auto;
+    border-collapse: collapse;
 }
 
 .day table tr td {
     cursor: pointer;
     color: #00ff;
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
+    padding: 3px 4px;
+    border: 1px solid #000;
+}
+
+.day table tr:nth-child(11) td {
+    border: none;
+}
+
+.day table tr:nth-child(12) td:nth-child(2) {
+    border: none;
 }
 
 
 /* td */
 
-.td-urin {
+.day table tr td.td-urin {
     width: 50px;
+    color: #000;
+    cursor: default;
 }
 
-.td-FISH {
+.day table tr td.td-FISH {
     width: 200px;
+    cursor: default;
+    color: #000;
 }
 
-.td-box {
+.day table tr td.td-box {
     width: 100px
 }
 
-.td-result {
-    width: 50px
+.day table tr td.td-result {
+    width: 50px;
+    cursor: default;
+    color: #000;
 }
 
 
 /* display */
+
+.d-none {
+    display: none;
+}
 
 
 /*  */
 
 #fantamas {
     opacity: 0;
+}
+
+
+/*  */
+
+img {
+    max-width: 98%;
+}
+
+
+/*  */
+
+.day table tr td a {
+    color: #551a8b;
 }
