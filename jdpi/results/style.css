@@ -1,80 +1,97 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-size: 14px;
 }
-
-table {
-    margin-top: 50px;
-    margin-left: 30px;
-    border: 1px solid #000;
-    text-align: center;
-}
-
-td {
-    cursor: pointer;
-    color: #00ff;
-}
-
-a {
-    color: #551a88;
-}
-
-.notpointer>td,
-.notpointer {
-    cursor: context-menu;
-    color: #000;
-}
-
-.number {
-    width: 50px;
-}
-
-.ismfamilya {
-    width: 200px;
-}
-
-.box {
-    width: 70px;
-}
-
-.b-r {
-    border-right: 1px dashed #000;
-}
-
-.b-t {
-    border-top: 1px dashed #000;
-}
-
-.b-b {
-    border-bottom: 1px dashed #000;
-}
-
-.b-l {
-    border-left: 1px dashed #000;
-}
-
-.b-x {
-    border-right: 1px dashed #000;
-    border-left: 1px dashed #000;
-}
-
-.b-y {
-    border-top: 1px dashed #000;
-    border-bottom: 1px dashed #000;
-}
-
-
-/*  */
-
-
-/*  */
-
-
-/*  */
-
-
-/*  */
 
 #table {
     overflow: auto;
+}
+
+.day {
+    background-color: #00000011;
+}
+
+.day p {
+    font-size: 36px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+
+/* .day section {} */
+
+.day table {
+    /* border-top: 1px solid #000; */
+    text-align: center;
+    margin: 2px auto;
+    border-collapse: collapse;
+}
+
+.day table tr td {
+    cursor: pointer;
+    color: #00ff;
+    padding: 3px 4px;
+    border: 1px solid #000;
+}
+
+.day table tr:nth-child(11) td {
+    border: none;
+}
+
+.day table tr:nth-child(12) td:nth-child(2) {
+    border: none;
+}
+
+
+/* td */
+
+.day table tr td.td-urin {
+    width: 50px;
+    color: #000;
+    cursor: default;
+}
+
+.day table tr td.td-FISH {
+    width: 200px;
+    cursor: default;
+    color: #000;
+}
+
+.day table tr td.td-box {
+    width: 100px
+}
+
+.day table tr td.td-result {
+    width: 50px;
+    cursor: default;
+    color: #000;
+}
+
+
+/* display */
+
+.d-none {
+    display: none;
+}
+
+
+/*  */
+
+#fantamas {
+    opacity: 0;
+}
+
+
+/*  */
+
+img {
+    max-width: 98%;
+}
+
+
+/*  */
+
+.day table tr td a {
+    color: #551a8b;
 }
