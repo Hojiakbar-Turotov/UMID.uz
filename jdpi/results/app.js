@@ -64,7 +64,6 @@ const AbduqodirovaDilshoda35masala = document.getElementById("Abduqodirova_Dilsh
 // Ulashev Mashhura
 // 1-masala
 const UlashevaMashhura1masala = document.getElementById("Ulasheva_Mashhura_1");
-// 2-masala
 // 3-masala
 const UlashevaMashhura3masala = document.getElementById("Ulasheva_Mashhura_3");
 // 4-masala
@@ -136,26 +135,11 @@ const UlashevaMashhura35masala = document.getElementById("Ulasheva_Mashhura_35")
 // Usmonov Azimjon
 // 1-masala
 const UsmonovAzimjon1masala = document.getElementById("Usmonov_Azimjon_1");
-// 2-masala
-// 3-masala
-// 4-masala
-// 5-masala
-// 6-masala
-// 7-masala
-// 8-masala
-// 9-masala
-// 10-masala
 
 
 // Yangiboyev Kamol
 // 1-masala
 const YangiboyevKamol1masala = document.getElementById("Yangiboyev_Kamol_1");
-// 2-masala
-// 3-masala
-// 4-masala
-// 5-masala
-// 6-masala
-// 7-masala
 // 8-masala
 const YangiboyevKamol8masala = document.getElementById("Yangiboyev_Kamol_8");
 // 9-masala
@@ -177,39 +161,21 @@ const YangiboyevKamol35masala = document.getElementById("Yangiboyev_Kamol_35");
 // Samatova Gulmira
 // 1-masala
 const SamatovaGulmira1masala = document.getElementById("Samatova_Gulmira_1");
-// 2-masala
-// 3-masala
-// 4-masala
-// 5-masala
-// 6-masala
-// 7-masala
-// 8-masala
-// 9-masala
-// 10-masala
+// 39-masala
+const SamatovaGulmira39masala = document.getElementById("Samatova_Gulmira_39");
+// 40-masala
+const SamatovaGulmira40masala = document.getElementById("Samatova_Gulmira_40");
+// 41-masala
+const SamatovaGulmira41masala = document.getElementById("Samatova_Gulmira_41");
+
 
 
 // Mamatqulov Fathulla
 // 1-masala
 const MamatqulovFathulla1masala = document.getElementById("Mamatqulov_Fathulla_1");
-// 2-masala
-// 3-masala
-// 4-masala
-// 5-masala
-// 6-masala
-// 7-masala
-// 8-masala
-// 9-masala
-// 10-masala
 
 
 // Baratov Abbos
-// 1-masala
-// 2-masala
-// 3-masala
-// 4-masala
-// 5-masala
-// 6-masala
-// 7-masala
 // 8-masala
 const BarotovAbbos8masala = document.getElementById("Barotov_Abbos_8");
 // 9-masala
@@ -227,13 +193,6 @@ const BarotovAbbos14masala = document.getElementById("Barotov_Abbos_14");
 
 
 // Qo'chqorov Abulqosim
-// 1-masala
-// 2-masala
-// 3-masala
-// 4-masala
-// 5-masala
-// 6-masala
-// 7-masala
 // 8-masala
 const QuchqorovAbulqosim8masala = document.getElementById("Quchqorov_Abulqosim_8");
 // 9-masala
@@ -263,6 +222,16 @@ const QuchqorovAbulqosim34masala = document.getElementById("Quchqorov_Abulqosim_
 // Ergashev Qayumjon
 // 29-masala
 const ErgashevQayumjon29masala = document.getElementById("Ergashev_Qayumjon_29");
+// 36-masala
+const ErgashevQayumjon36masala = document.getElementById("Ergashev_Qayumjon_36");
+// 37-masala
+const ErgashevQayumjon37masala = document.getElementById("Ergashev_Qayumjon_37");
+// 38-masala
+const ErgashevQayumjon38masala = document.getElementById("Ergashev_Qayumjon_38");
+// 39-masala
+const ErgashevQayumjon39masala = document.getElementById("Ergashev_Qayumjon_39");
+// 40-masala
+const ErgashevQayumjon40masala = document.getElementById("Ergashev_Qayumjon_40");
 
 
 // Raxmatullayev Xurshid
@@ -1093,6 +1062,8 @@ function YangiboyevKamolmasala35() {
 }
 
 // Samatova Gulmira
+
+// 1-masala
 function SamatovaGulmiramasala1() {
     if (isBoolean) {
         all();
@@ -1104,6 +1075,49 @@ function SamatovaGulmiramasala1() {
         isBoolean = true;
     }
 }
+
+// 39-masala
+function SamatovaGulmiramasala39() {
+    if (isBoolean) {
+        all();
+        SamatovaGulmira39masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        SamatovaGulmira39masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 40-masala
+function SamatovaGulmiramasala40() {
+    if (isBoolean) {
+        all();
+        SamatovaGulmira40masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        SamatovaGulmira40masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 41-masala
+function SamatovaGulmiramasala41() {
+    if (isBoolean) {
+        all();
+        SamatovaGulmira41masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        SamatovaGulmira41masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+
+
+
 // Mamatqulov Fathulla
 
 function MamatqulovFathullamasala1() {
@@ -1377,6 +1391,8 @@ function QuchqorovAbulqosimmasala34() {
 
 // Ergashev Qayumjon
 
+
+// 29-masala
 function ErgashevQayumjonmasala29() {
     if (isBoolean) {
         all();
@@ -1388,6 +1404,72 @@ function ErgashevQayumjonmasala29() {
         isBoolean = true;
     }
 }
+
+// 36-masala
+function ErgashevQayumjonmasala36() {
+    if (isBoolean) {
+        all();
+        ErgashevQayumjon36masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        ErgashevQayumjon36masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 37-masala
+function ErgashevQayumjonmasala37() {
+    if (isBoolean) {
+        all();
+        ErgashevQayumjon37masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        ErgashevQayumjon37masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 38-masala
+function ErgashevQayumjonmasala38() {
+    if (isBoolean) {
+        all();
+        ErgashevQayumjon38masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        ErgashevQayumjon38masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 39-masala
+function ErgashevQayumjonmasala39() {
+    if (isBoolean) {
+        all();
+        ErgashevQayumjon39masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        ErgashevQayumjon39masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 40-masala
+function ErgashevQayumjonmasala40() {
+    if (isBoolean) {
+        all();
+        ErgashevQayumjon40masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        ErgashevQayumjon40masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
 
 // Raxmatullayev Xurshid
 
@@ -1490,7 +1572,7 @@ const USER33masala = document.getElementById("USER_33");
 const USER34masala = document.getElementById("USER_34");
 // 35-masala
 const USER35masala = document.getElementById("USER_35");
-/*// 36-masala
+// 36-masala
 const USER36masala = document.getElementById("USER_36");
 // 37-masala
 const USER37masala = document.getElementById("USER_37");
@@ -1503,7 +1585,7 @@ const USER40masala = document.getElementById("USER_40");
 // 41-masala
 const USER41masala = document.getElementById("USER_41");
 // 42-masala
-const USER42masala = document.getElementById("USER_42");
+/*const USER42masala = document.getElementById("USER_42");
 // 43-masala
 const USER43masala = document.getElementById("USER_43");
 // 44-masala
@@ -1879,6 +1961,90 @@ function USERmasala35() {
     } else {
         more();
         USER35masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala36() {
+    if (isBoolean) {
+        all();
+        USER36masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER36masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala37() {
+    if (isBoolean) {
+        all();
+        USER37masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER37masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala38() {
+    if (isBoolean) {
+        all();
+        USER38masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER38masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala39() {
+    if (isBoolean) {
+        all();
+        USER39masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER39masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala40() {
+    if (isBoolean) {
+        all();
+        USER40masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER40masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala41() {
+    if (isBoolean) {
+        all();
+        USER41masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER41masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala42() {
+    if (isBoolean) {
+        all();
+        USER42masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER42masala.classList.add("d-none");
         isBoolean = true;
     }
 }
