@@ -1139,22 +1139,9 @@ const hafta7natijalari = `
                     </div>
                     <td class="td-result">159-ball</td>
                 </tr>
+             
                 <tr>
                     <td class="td-urin">2</td>
-                    <td class="td-FISH">Qo'chqorov Abulqosim</td>
-                    <div class="hafta-1-QuchqorovAbulqosim">
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                    </div>
-                    <td class="td-result">121-ball</td>
-                </tr>
-                <tr>
-                    <td class="td-urin">3</td>
                     <td class="td-FISH">Qo'chqorov Abulqosim</td>
                     <div class="hafta-7-QuchqorovAbulqosim">
                         <td class="td-box" onclick="minus()">---</td>
