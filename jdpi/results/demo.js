@@ -1285,13 +1285,13 @@ const hafta7natijalari = `
                     <td class="td-box">-</td>
                     <td class="td-box">-</td>
                     <div id="hafta-7-USER">
-                        <td class="td-box" onclick="USERmasala1()">USER</td>
-                        <td class="td-box" onclick="USERmasala2()">USER</td>
-                        <td class="td-box" onclick="USERmasala3()">USER</td>
-                        <td class="td-box" onclick="USERmasala4()">USER</td>
-                        <td class="td-box" onclick="USERmasala5()">USER</td>
-                        <td class="td-box" onclick="USERmasala6()">USER</td>
-                        <td class="td-box" onclick="USERmasala7()">USER</td>
+                        <td class="td-box" onclick="USERmasala43()">USER</td>
+                        <td class="td-box" onclick="USERmasala44()">USER</td>
+                        <td class="td-box" onclick="USERmasala45()">USER</td>
+                        <td class="td-box" onclick="USERmasala46()">USER</td>
+                        <td class="td-box" onclick="USERmasala47()">USER</td>
+                        <td class="td-box" onclick="USERmasala48()">USER</td>
+                        <td class="td-box" onclick="USERmasala49()">USER</td>
                     </div>
                 </tr>
                 <tr id="fantamas">
@@ -1342,6 +1342,7 @@ function oldinga() {
         haftaraqami += 1;
         hafta6.innerHTML = ``;
         hafta7.innerHTML = hafta7natijalari;
+        document.getElementById("style").innerHTML = `.day table tr:nth-child(15) td {border: none;}.day table tr:nth-child(16) td:nth-child(2) {border: none;}`;
     }
 }
 
@@ -1379,5 +1380,6 @@ function orqaga() {
         haftaraqami -= 1;
         hafta6.innerHTML = hafta6natijalari;
         hafta7.innerHTML = ``;
+        document.getElementById("style").innerHTML = `.day table tr:nth-child(14) td {border: none;}.day table tr:nth-child(15) td:nth-child(2) {border: none;}`;
     }
 }
