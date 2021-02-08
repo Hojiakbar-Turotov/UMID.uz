@@ -1342,7 +1342,6 @@ function oldinga() {
         haftaraqami += 1;
         hafta6.innerHTML = ``;
         hafta7.innerHTML = hafta7natijalari;
-        document.getElementById("style").innerHTML = `.day table tr:nth-child(16) td {border: none;}.day table tr:nth-child(17) td:nth-child(2) {border: none;}`;
     }
 }
 
@@ -1380,6 +1379,5 @@ function orqaga() {
         haftaraqami -= 1;
         hafta6.innerHTML = hafta6natijalari;
         hafta7.innerHTML = ``;
-        document.getElementById("style").innerHTML = `.day table tr:nth-child(14) td {border: none;}.day table tr:nth-child(15) td:nth-child(2) {border: none;}`;
     }
 }
