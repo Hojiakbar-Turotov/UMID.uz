@@ -1115,13 +1115,13 @@ const hafta7natijalari = `
                     <td class="td-urin">O'rin:</td>
                     <td class="td-FISH">Ism Familya:</td>
                     <div id="hafta-7-masalalar">
-                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/1-masala/">1-masala</a></td>
-                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/2-masala/">2-masala</a></td>
-                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/3-masala/">3-masala</a></td>
-                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/4-masala/">4-masala</a></td>
-                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/5-masala/">5-masala</a></td>
-                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/6-masala/">6-masala</a></td>
-                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/7-masala/">7-masala</a></td>
+                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/43-masala/">43-masala</a></td>
+                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/44-masala/">44-masala</a></td>
+                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/45-masala/">45-masala</a></td>
+                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/46-masala/">46-masala</a></td>
+                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/47-masala/">47-masala</a></td>
+                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/48-masala/">48-masala</a></td>
+                        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/49-masala/">49-masala</a></td>
                     </div>
                     <td class="td-result">Jami:</td>
                 </tr>
