@@ -38,7 +38,7 @@ const hafta1natijalari = `
             <td class="td-box" onclick="UlashevaMashhuramasala6()"><span id="UlashevaMashhuramasala6bali">1</span>-ball</td>
             <td class="td-box" onclick="UlashevaMashhuramasala7()"><span id="UlashevaMashhuramasala7bali">2</span>-ball</td>
         </div>
-        <td class="td-result">159-ball</td>
+        <td class="td-result">191-ball</td>
     </tr>
     <tr>
         <td class="td-urin">2</td>
@@ -212,7 +212,7 @@ const hafta2natijalari = `
             <td class="td-box" onclick="UlashevaMashhuramasala13()"><span id="UlashevaMashhuramasala13bali">1</span>-ball</td>
             <td class="td-box" onclick="UlashevaMashhuramasala14()"><span id="UlashevaMashhuramasala14bali">3</span>-ball</td>
         </div>
-        <td class="td-result">159-ball</td>
+        <td class="td-result">191-ball</td>
     </tr>
     <tr>
         <td class="td-urin">2</td>
@@ -386,7 +386,7 @@ const hafta3natijalari = `
             <td class="td-box" onclick="UlashevaMashhuramasala20()"><span id="UlashevaMashhuramasala20bali">5</span>-ball</td>
             <td class="td-box" onclick="UlashevaMashhuramasala21()"><span id="UlashevaMashhuramasala21bali">4</span>-ball</td>
         </div>
-        <td class="td-result">159-ball</td>
+        <td class="td-result">191-ball</td>
     </tr>
     <tr>
         <td class="td-urin">2</td>
@@ -560,7 +560,7 @@ const hafta4natijalari = `
             <td class="td-box" onclick="UlashevaMashhuramasala27()"><span id="UlashevaMashhuramasala27bali">3</span>-ball</td>
             <td class="td-box" onclick="UlashevaMashhuramasala28()"><span id="UlashevaMashhuramasala28bali">5</span>-ball</td>
         </div>
-        <td class="td-result">159-ball</td>
+        <td class="td-result">191-ball</td>
     </tr>
     <tr>
         <td class="td-urin">2</td>
@@ -734,7 +734,7 @@ const hafta5natijalari = `
             <td class="td-box" onclick="UlashevaMashhuramasala34()"><span id="UlashevaMashhuramasala34bali">8</span>-ball</td>
             <td class="td-box" onclick="UlashevaMashhuramasala35()"><span id="UlashevaMashhuramasala35bali">4</span>-ball</td>
         </div>
-        <td class="td-result">159-ball</td>
+        <td class="td-result">191-ball</td>
     </tr>
     <tr>
         <td class="td-urin">2</td>
@@ -936,7 +936,7 @@ const hafta6natijalari = `
             <td class="td-box" onclick="minus()">---</td>
             <td class="td-box" onclick="minus()">---</td>
         </div>
-        <td class="td-result">159-ball</td>
+        <td class="td-result">191-ball</td>
     </tr>
     <tr>
         <td class="td-urin">2</td>
@@ -1138,7 +1138,7 @@ const hafta7natijalari = `
                         <td class="td-box" onclick="minus()">---</td>
                         <td class="td-box" onclick="minus()">---</td>
                     </div>
-                    <td class="td-result">159-ball</td>
+                    <td class="td-result">191-ball</td>
                 </tr>
              
                 <tr>
