@@ -8,6 +8,7 @@ const hafta5 = document.getElementById("hafta5");
 const hafta6 = document.getElementById("hafta6");
 const hafta7 = document.getElementById("hafta7");
 const hafta8 = document.getElementById("hafta8");
+const hafta9 = document.getElementById("hafta9");
 
 
 const hafta1natijalari = `
@@ -1519,6 +1520,210 @@ const hafta8natijalari = `
 </tr>
 </table>
 `;
+const hafta9natijalari = `
+<table>
+<tr>
+    <td class="td-urin">O'rin:</td>
+    <td class="td-FISH">Ism Familya:</td>
+    <div id="hafta-9-masalalar">
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/57-masala/">57-masala</a></td>
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/58-masala/">58-masala</a></td>
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/59-masala/">59-masala</a></td>
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/60-masala/">60-masala</a></td>
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/61-masala/">61-masala</a></td>
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/62-masala/">62-masala</a></td>
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/63-masala/">63-masala</a></td>
+    </div>
+    <td class="td-result">Jami:</td>
+</tr>
+<tr>
+    <td class="td-urin">1</td>
+    <td class="td-FISH">Ulasheva Mashxura</td>
+    <div id="hafta-9-UlashevaMashhura">
+    <td class="td-box" onclick="minus()">---</td>
+    <td class="td-box" onclick="minus()">---</td>
+    <td class="td-box" onclick="minus()">---</td>
+    <td class="td-box" onclick="minus()">---</td>
+    <td class="td-box" onclick="minus()">---</td>
+    <td class="td-box" onclick="minus()">---</td>
+    <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">191-ball</td>
+</tr>
+
+<tr>
+    <td class="td-urin">2</td>
+    <td class="td-FISH">Qo'chqorov Abulqosim</td>
+    <div class="hafta-9-QuchqorovAbulqosim">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">121-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">3</td>
+    <td class="td-FISH">Abduqodirova Dilshoda</td>
+    <div class="hafta-9-AbduqodirovaDilshoda">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">91-ball</td>
+</tr>
+
+<tr>
+    <td class="td-urin">4</td>
+    <td class="td-FISH">Yangiboyev Kamol</td>
+    <div id="hafta-9-YangiboyevKamol">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">69-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">5</td>
+    <td class="td-FISH">Barotov Abbos</td>
+    <div id="hafta-9">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">43-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">6</td>
+    <td class="td-FISH">Ergashev Qayumjon</td>
+    <div class="hafta-9-ErgashevQayumjon">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">42-ball</td>
+</tr>
+<tr>
+    <tr>
+        <td class="td-urin">7</td>
+        <td class="td-FISH">Samatova Gulmira</td>
+        <div class="hafta-9-SamatovaGulmira">
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+        </div>
+        <td class="td-result">40-ball</td>
+    </tr>
+    <td class="td-urin">8</td>
+    <td class="td-FISH">Usmonov Azimjon</td>
+    <div class="hafta-9-UsmonovAzimjon">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">9-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">9</td>
+    <td class="td-FISH">Mamatqulov Fathulla</td>
+    <div class="hafta-9-MamatqulovFathulla">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">7-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">10</td>
+    <td class="td-FISH">Raxmatullayev Xurshid</td>
+    <div class="hafta-9-RaxmatullayevXurshid">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">2-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">11</td>
+    <td class="td-FISH">Begbo'tayev Sunnatillo</td>
+    <div class="hafta-6-BegbutayevSunnatillo">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">1-ball</td>
+</tr>
+<tr>
+    <td class="td-box">-</td>
+    <td class="td-box">-</td>
+    <div id="hafta-9-USER">
+        <td class="td-box" onclick="USERmasala57()">USER</td>
+        <td class="td-box" onclick="USERmasala58()">USER</td>
+        <td class="td-box" onclick="USERmasala59()">USER</td>
+        <td class="td-box" onclick="USERmasala60()">USER</td>
+        <td class="td-box" onclick="USERmasala61()">USER</td>
+        <td class="td-box" onclick="USERmasala62()">USER</td>
+        <td class="td-box" onclick="USERmasala63()">USER</td>
+    </div>
+</tr>
+<tr id="fantamas">
+    <td>000000000</td>
+    <td>000000000000000000000000</td>
+    <td>00000000000</td>
+    <td>00000000000</td>
+    <td>00000000000</td>
+    <td>00000000000</td>
+    <td>00000000000</td>
+    <td>00000000000</td>
+    <td>00000000000</td>
+    <td>000000000</td>
+</tr>
+<tr>
+    <td onclick="orqaga()">&#8592;</td>
+    <td colspan="8" style="color: #000; cursor: default;">8-hafta natijalari</td>
+    <td onclick="oldinga()">&#8594;</td>
+</tr>
+</table>
+`;
 
 
 
@@ -1554,11 +1759,14 @@ function oldinga() {
         hafta6.innerHTML = ``;
         hafta7.innerHTML = hafta7natijalari;
         document.getElementById("style").innerHTML = `.day table tr:nth-child(15) td {border: none;}.day table tr:nth-child(16) td:nth-child(2) {border: none;}`;
-    }
-    else if (haftaraqami == 7) {
+    } else if (haftaraqami == 7) {
         haftaraqami += 1;
         hafta7.innerHTML = ``;
         hafta8.innerHTML = hafta8natijalari;
+    } else if (haftaraqami == 8) {
+        haftaraqami += 1;
+        hafta8.innerHTML = ``;
+        hafta9.innerHTML = hafta9natijalari;
     }
 }
 
@@ -1601,5 +1809,9 @@ function orqaga() {
         haftaraqami -= 1;
         hafta7.innerHTML = hafta7natijalari;
         hafta8.innerHTML = ``;
+    } else if (haftaraqami == 9) {
+        haftaraqami -= 1;
+        hafta8.innerHTML = hafta7natijalari;
+        hafta9.innerHTML = ``;
     }
 }
