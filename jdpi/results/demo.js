@@ -9,6 +9,7 @@ const hafta6 = document.getElementById("hafta6");
 const hafta7 = document.getElementById("hafta7");
 const hafta8 = document.getElementById("hafta8");
 const hafta9 = document.getElementById("hafta9");
+const hafta10 = document.getElementById("hafta10");
 
 
 const hafta1natijalari = `
@@ -43,6 +44,20 @@ const hafta1natijalari = `
     </tr>
     <tr>
         <td class="td-urin">2</td>
+        <td class="td-FISH">Abduqodirova Dilshoda</td>
+        <div class="hafta-1-AbduqodirovaDilshoda">
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala1()"><span id="AbduqodirovaDilshodamasala1bali">7</span>-ball</td>
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala2()"><span id="AbduqodirovaDilshodamasala2bali">6</span>-ball</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala4()"><span id="AbduqodirovaDilshodamasala4bali">9</span>-ball</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+        </div>
+        <td class="td-result">145-ball</td>
+    </tr>
+    <tr>
+        <td class="td-urin">3</td>
         <td class="td-FISH">Qo'chqorov Abulqosim</td>
         <div class="hafta-1-QuchqorovAbulqosim">
             <td class="td-box" onclick="minus()">---</td>
@@ -54,21 +69,7 @@ const hafta1natijalari = `
             <td class="td-box" onclick="minus()">---</td>
         </div>
         <td class="td-result">121-ball</td>
-    </tr><tr>
-        <td class="td-urin">3</td>
-        <td class="td-FISH">Abduqodirova Dilshoda</td>
-        <div class="hafta-1-AbduqodirovaDilshoda">
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala1()"><span id="AbduqodirovaDilshodamasala1bali">7</span>-ball</td>
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala2()"><span id="AbduqodirovaDilshodamasala2bali">6</span>-ball</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala4()"><span id="AbduqodirovaDilshodamasala4bali">9</span>-ball</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-        </div>
-        <td class="td-result">91-ball</td>
     </tr>
-    
     <tr>
         <td class="td-urin">4</td>
         <td class="td-FISH">Yangiboyev Kamol</td>
@@ -217,6 +218,20 @@ const hafta2natijalari = `
     </tr>
     <tr>
         <td class="td-urin">2</td>
+        <td class="td-FISH">Abduqodirova Dilshoda</td>
+        <div id="hafta-2-AbduqodirovaDilshoda">
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala8()"><span id="AbduqodirovaDilshodamasala8bali">7</span>-ball</td>
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala9()"><span id="AbduqodirovaDilshodamasala9bali">9</span>-ball</td>
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala10()"><span id="AbduqodirovaDilshodamasala10bali">10</span>-ball</td>
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala11()"><span id="AbduqodirovaDilshodamasala11bali">10</span>-ball</td>
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala12()"><span id="AbduqodirovaDilshodamasala12bali">6</span>-ball</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+        </div>
+        <td class="td-result">145-ball</td>
+    </tr>
+    <tr>
+        <td class="td-urin">3</td>
         <td class="td-FISH">Qo'chqorov Abulqosim</td>
         <div id="hafta-2-QuchqorovAbulqosim">
             <td class="td-box" onclick="QuchqorovAbulqosimmasala8()"><span id="QuchqorovAbulqosimmasala8bali">10</span>-ball</td>
@@ -228,21 +243,7 @@ const hafta2natijalari = `
             <td class="td-box" onclick="QuchqorovAbulqosimmasala14()"><span id="QuchqorovAbulqosimmasala14bali">3</span>-ball</td>
         </div>
         <td class="td-result">121-ball</td>
-    </tr><tr>
-        <td class="td-urin">3</td>
-        <td class="td-FISH">Abduqodirova Dilshoda</td>
-        <div id="hafta-2-AbduqodirovaDilshoda">
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala8()"><span id="AbduqodirovaDilshodamasala8bali">7</span>-ball</td>
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala9()"><span id="AbduqodirovaDilshodamasala9bali">9</span>-ball</td>
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala10()"><span id="AbduqodirovaDilshodamasala10bali">10</span>-ball</td>
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala11()"><span id="AbduqodirovaDilshodamasala11bali">10</span>-ball</td>
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala12()"><span id="AbduqodirovaDilshodamasala12bali">6</span>-ball</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-        </div>
-        <td class="td-result">91-ball</td>
     </tr>
-    
     <tr>
         <td class="td-urin">4</td>
         <td class="td-FISH">Yangiboyev Kamol</td>
@@ -391,6 +392,20 @@ const hafta3natijalari = `
     </tr>
     <tr>
         <td class="td-urin">2</td>
+        <td class="td-FISH">Abduqodirova Dilshoda</td>
+        <div id="hafta-3-AbduqodirovaDilshoda">
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala15()"><span id="AbduqodirovaDilshodamasala15bali">9</span>-ball</td>
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala16()"><span id="AbduqodirovaDilshodamasala16bali">4</span>-ball</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+        </div>
+        <td class="td-result">145-ball</td>
+    </tr>
+    <tr>
+        <td class="td-urin">3</td>
         <td class="td-FISH">Qo'chqorov Abulqosim</td>
         <div id="hafta-3-QuchqorovAbulqosim">
             <td class="td-box" onclick="minus()">---</td>
@@ -402,21 +417,7 @@ const hafta3natijalari = `
             <td class="td-box" onclick="minus()">---</td>
         </div>
         <td class="td-result">121-ball</td>
-    </tr><tr>
-        <td class="td-urin">3</td>
-        <td class="td-FISH">Abduqodirova Dilshoda</td>
-        <div id="hafta-3-AbduqodirovaDilshoda">
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala15()"><span id="AbduqodirovaDilshodamasala15bali">9</span>-ball</td>
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala16()"><span id="AbduqodirovaDilshodamasala16bali">4</span>-ball</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-        </div>
-        <td class="td-result">91-ball</td>
     </tr>
-    
     <tr>
         <td class="td-urin">4</td>
         <td class="td-FISH">Yangiboyev Kamol</td>
@@ -565,6 +566,20 @@ const hafta4natijalari = `
     </tr>
     <tr>
         <td class="td-urin">2</td>
+        <td class="td-FISH">Abduqodirova Dilshoda</td>
+        <div class="hafta-1-AbduqodirovaDilshoda">
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+        </div>
+        <td class="td-result">145-ball</td>
+    </tr>
+    <tr>
+        <td class="td-urin">3</td>
         <td class="td-FISH">Qo'chqorov Abulqosim</td>
         <div class="hafta-1-QuchqorovAbulqosim">
             <td class="td-box" onclick="minus()">---</td>
@@ -576,21 +591,7 @@ const hafta4natijalari = `
             <td class="td-box" onclick="minus()">---</td>
         </div>
         <td class="td-result">121-ball</td>
-    </tr><tr>
-        <td class="td-urin">3</td>
-        <td class="td-FISH">Abduqodirova Dilshoda</td>
-        <div class="hafta-1-AbduqodirovaDilshoda">
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-        </div>
-        <td class="td-result">91-ball</td>
     </tr>
-    
     <tr>
         <td class="td-urin">4</td>
         <td class="td-FISH">Yangiboyev Kamol</td>
@@ -739,6 +740,20 @@ const hafta5natijalari = `
     </tr>
     <tr>
         <td class="td-urin">2</td>
+        <td class="td-FISH">Abduqodirova Dilshoda</td>
+        <div class="hafta-1-AbduqodirovaDilshoda">
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala29()"><span id="AbduqodirovaDilshodamasala29bali">4</span>-ball</td>
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala30()"><span id="AbduqodirovaDilshodamasala30bali">3</span>-ball</td>
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala31()"><span id="AbduqodirovaDilshodamasala31bali">1</span>-ball</td>
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala32()"><span id="AbduqodirovaDilshodamasala32bali">0</span>-ball</td>
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala33()"><span id="AbduqodirovaDilshodamasala33bali">2</span>-ball</td>
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala34()"><span id="AbduqodirovaDilshodamasala34bali">3</span>-ball</td>
+            <td class="td-box" onclick="AbduqodirovaDilshodamasala35()"><span id="AbduqodirovaDilshodamasala35bali">1</span>-ball</td>
+        </div>
+        <td class="td-result">145-ball</td>
+    </tr>
+    <tr>
+        <td class="td-urin">3</td>
         <td class="td-FISH">Qo'chqorov Abulqosim</td>
         <div class="hafta-1-QuchqorovAbulqosim">
             <td class="td-box" onclick="QuchqorovAbulqosimmasala29()"><span id="QuchqorovAbulqosimmasala29bali">7</span>-ball</td>
@@ -750,21 +765,7 @@ const hafta5natijalari = `
             <td class="td-box" onclick="minus()">---</td>
         </div>
         <td class="td-result">121-ball</td>
-    </tr><tr>
-        <td class="td-urin">3</td>
-        <td class="td-FISH">Abduqodirova Dilshoda</td>
-        <div class="hafta-1-AbduqodirovaDilshoda">
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala29()"><span id="AbduqodirovaDilshodamasala29bali">4</span>-ball</td>
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala30()"><span id="AbduqodirovaDilshodamasala30bali">3</span>-ball</td>
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala31()"><span id="AbduqodirovaDilshodamasala31bali">1</span>-ball</td>
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala32()"><span id="AbduqodirovaDilshodamasala32bali">0</span>-ball</td>
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala33()"><span id="AbduqodirovaDilshodamasala33bali">2</span>-ball</td>
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala34()"><span id="AbduqodirovaDilshodamasala34bali">3</span>-ball</td>
-            <td class="td-box" onclick="AbduqodirovaDilshodamasala35()"><span id="AbduqodirovaDilshodamasala35bali">1</span>-ball</td>
-        </div>
-        <td class="td-result">91-ball</td>
     </tr>
-    
     <tr>
         <td class="td-urin">4</td>
         <td class="td-FISH">Yangiboyev Kamol</td>
@@ -941,6 +942,20 @@ const hafta6natijalari = `
     </tr>
     <tr>
         <td class="td-urin">2</td>
+        <td class="td-FISH">Abduqodirova Dilshoda</td>
+        <div class="hafta-6-AbduqodirovaDilshoda">
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+        </div>
+        <td class="td-result">145-ball</td>
+    </tr>
+    <tr>
+        <td class="td-urin">3</td>
         <td class="td-FISH">Qo'chqorov Abulqosim</td>
         <div class="hafta-6-QuchqorovAbulqosim">
             <td class="td-box" onclick="minus()">---</td>
@@ -952,21 +967,7 @@ const hafta6natijalari = `
             <td class="td-box" onclick="minus()">---</td>
         </div>
         <td class="td-result">121-ball</td>
-    </tr><tr>
-        <td class="td-urin">3</td>
-        <td class="td-FISH">Abduqodirova Dilshoda</td>
-        <div class="hafta-6-AbduqodirovaDilshoda">
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-            <td class="td-box" onclick="minus()">---</td>
-        </div>
-        <td class="td-result">91-ball</td>
     </tr>
-    
     <tr>
         <td class="td-urin">4</td>
         <td class="td-FISH">Yangiboyev Kamol</td>
@@ -1143,7 +1144,21 @@ const hafta7natijalari = `
                 </tr>
              
                 <tr>
-                    <td class="td-urin">2</td>
+                <td class="td-urin">2</td>
+                <td class="td-FISH">Abduqodirova Dilshoda</td>
+                <div class="hafta-7-AbduqodirovaDilshoda">
+                <td class="td-box" onclick="minus()">---</td>
+                <td class="td-box" onclick="minus()">---</td>
+                <td class="td-box" onclick="minus()">---</td>
+                <td class="td-box" onclick="minus()">---</td>
+                <td class="td-box" onclick="minus()">---</td>
+                <td class="td-box" onclick="minus()">---</td>
+                <td class="td-box" onclick="minus()">---</td>
+                </div>
+                <td class="td-result">145-ball</td>
+                </tr>
+                <tr>
+                    <td class="td-urin">3</td>
                     <td class="td-FISH">Qo'chqorov Abulqosim</td>
                     <div class="hafta-7-QuchqorovAbulqosim">
                         <td class="td-box" onclick="minus()">---</td>
@@ -1156,21 +1171,7 @@ const hafta7natijalari = `
                     </div>
                     <td class="td-result">121-ball</td>
                 </tr>
-                <tr>
-                    <td class="td-urin">3</td>
-                    <td class="td-FISH">Abduqodirova Dilshoda</td>
-                    <div class="hafta-7-AbduqodirovaDilshoda">
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                    </div>
-                    <td class="td-result">91-ball</td>
-                </tr>
-
+                
                 <tr>
                     <td class="td-urin">4</td>
                     <td class="td-FISH">Yangiboyev Kamol</td>
@@ -1347,8 +1348,23 @@ const hafta8natijalari = `
     <td class="td-result">191-ball</td>
 </tr>
 
+
 <tr>
     <td class="td-urin">2</td>
+    <td class="td-FISH">Abduqodirova Dilshoda</td>
+    <div class="hafta-8-AbduqodirovaDilshoda">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">145-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">3</td>
     <td class="td-FISH">Qo'chqorov Abulqosim</td>
     <div class="hafta-8-QuchqorovAbulqosim">
         <td class="td-box" onclick="minus()">---</td>
@@ -1361,21 +1377,6 @@ const hafta8natijalari = `
     </div>
     <td class="td-result">121-ball</td>
 </tr>
-<tr>
-    <td class="td-urin">3</td>
-    <td class="td-FISH">Abduqodirova Dilshoda</td>
-    <div class="hafta-8-AbduqodirovaDilshoda">
-        <td class="td-box" onclick="minus()">---</td>
-        <td class="td-box" onclick="minus()">---</td>
-        <td class="td-box" onclick="minus()">---</td>
-        <td class="td-box" onclick="minus()">---</td>
-        <td class="td-box" onclick="minus()">---</td>
-        <td class="td-box" onclick="minus()">---</td>
-        <td class="td-box" onclick="minus()">---</td>
-    </div>
-    <td class="td-result">91-ball</td>
-</tr>
-
 <tr>
     <td class="td-urin">4</td>
     <td class="td-FISH">Yangiboyev Kamol</td>
@@ -1552,7 +1553,21 @@ const hafta9natijalari = `
 </tr>
 
 <tr>
-    <td class="td-urin">2</td>
+<td class="td-urin">2</td>
+<td class="td-FISH">Abduqodirova Dilshoda</td>
+<div class="hafta-9-AbduqodirovaDilshoda">
+<td class="td-box" onclick="minus()">---</td>
+<td class="td-box" onclick="minus()">---</td>
+<td class="td-box" onclick="minus()">---</td>
+<td class="td-box" onclick="minus()">---</td>
+<td class="td-box" onclick="minus()">---</td>
+<td class="td-box" onclick="minus()">---</td>
+<td class="td-box" onclick="minus()">---</td>
+</div>
+<td class="td-result">145-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">3</td>
     <td class="td-FISH">Qo'chqorov Abulqosim</td>
     <div class="hafta-9-QuchqorovAbulqosim">
         <td class="td-box" onclick="minus()">---</td>
@@ -1565,23 +1580,9 @@ const hafta9natijalari = `
     </div>
     <td class="td-result">121-ball</td>
 </tr>
-<tr>
-    <td class="td-urin">3</td>
-    <td class="td-FISH">Abduqodirova Dilshoda</td>
-    <div class="hafta-9-AbduqodirovaDilshoda">
-        <td class="td-box" onclick="minus()">---</td>
-        <td class="td-box" onclick="minus()">---</td>
-        <td class="td-box" onclick="minus()">---</td>
-        <td class="td-box" onclick="minus()">---</td>
-        <td class="td-box" onclick="minus()">---</td>
-        <td class="td-box" onclick="minus()">---</td>
-        <td class="td-box" onclick="minus()">---</td>
-    </div>
-    <td class="td-result">91-ball</td>
-</tr>
 
 <tr>
-    <td class="td-urin">4</td>
+<td class="td-urin">4</td>
     <td class="td-FISH">Yangiboyev Kamol</td>
     <div id="hafta-9-YangiboyevKamol">
         <td class="td-box" onclick="minus()">---</td>
@@ -1719,12 +1720,216 @@ const hafta9natijalari = `
 </tr>
 <tr>
     <td onclick="orqaga()">&#8592;</td>
-    <td colspan="8" style="color: #000; cursor: default;">8-hafta natijalari</td>
+    <td colspan="8" style="color: #000; cursor: default;">9-hafta natijalari</td>
     <td onclick="oldinga()">&#8594;</td>
 </tr>
 </table>
 `;
+const hafta10natijalari = `
+<table>
+<tr>
+    <td class="td-urin">O'rin:</td>
+    <td class="td-FISH">Ism Familya:</td>
+    <div id="hafta-9-masalalar">
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/64-masala/">64-masala</a></td>
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/65-masala/">65-masala</a></td>
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/66-masala/">66-masala</a></td>
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/67-masala/">67-masala</a></td>
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/68-masala/">68-masala</a></td>
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/69-masala/">69-masala</a></td>
+        <td class="td-box"><a href="https://umid-uz.netlify.app/jdpi/70-masala/">70-masala</a></td>
+    </div>
+    <td class="td-result">Jami:</td>
+</tr>
+<tr>
+    <td class="td-urin">1</td>
+    <td class="td-FISH">Ulasheva Mashxura</td>
+    <div id="hafta-9-UlashevaMashhura">
+    <td class="td-box" onclick="minus()">---</td>
+    <td class="td-box" onclick="minus()">---</td>
+    <td class="td-box" onclick="minus()">---</td>
+    <td class="td-box" onclick="minus()">---</td>
+    <td class="td-box" onclick="minus()">---</td>
+    <td class="td-box" onclick="minus()">---</td>
+    <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">191-ball</td>
+</tr>
 
+<tr>
+<td class="td-urin">2</td>
+<td class="td-FISH">Abduqodirova Dilshoda</td>
+<div class="hafta-9-AbduqodirovaDilshoda">
+<td class="td-box" onclick="AbduqodirovaDilshodamasala64()"><span id="AbduqodirovaDilshodamasala64bali">9</span>-ball</td>
+<td class="td-box" onclick="AbduqodirovaDilshodamasala65()"><span id="AbduqodirovaDilshodamasala65bali">10</span>-ball</td>
+<td class="td-box" onclick="AbduqodirovaDilshodamasala66()"><span id="AbduqodirovaDilshodamasala66bali">10</span>-ball</td>
+<td class="td-box" onclick="AbduqodirovaDilshodamasala67()"><span id="AbduqodirovaDilshodamasala67bali">10</span>-ball</td>
+<td class="td-box" onclick="AbduqodirovaDilshodamasala68()"><span id="AbduqodirovaDilshodamasala68bali">10</span>-ball</td>
+<td class="td-box" onclick="AbduqodirovaDilshodamasala69()"><span id="AbduqodirovaDilshodamasala69bali">3</span>-ball</td>
+<td class="td-box" onclick="AbduqodirovaDilshodamasala70()"><span id="AbduqodirovaDilshodamasala70bali">2</span>-ball</td>
+
+</div>
+<td class="td-result">145-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">3</td>
+    <td class="td-FISH">Qo'chqorov Abulqosim</td>
+    <div class="hafta-9-QuchqorovAbulqosim">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">121-ball</td>
+</tr>
+
+<tr>
+<td class="td-urin">4</td>
+    <td class="td-FISH">Yangiboyev Kamol</td>
+    <div id="hafta-9-YangiboyevKamol">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">69-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">5</td>
+    <td class="td-FISH">Barotov Abbos</td>
+    <div id="hafta-9">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">43-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">6</td>
+    <td class="td-FISH">Ergashev Qayumjon</td>
+    <div class="hafta-9-ErgashevQayumjon">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">42-ball</td>
+</tr>
+<tr>
+    <tr>
+        <td class="td-urin">7</td>
+        <td class="td-FISH">Samatova Gulmira</td>
+        <div class="hafta-9-SamatovaGulmira">
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+            <td class="td-box" onclick="minus()">---</td>
+        </div>
+        <td class="td-result">40-ball</td>
+    </tr>
+    <td class="td-urin">8</td>
+    <td class="td-FISH">Usmonov Azimjon</td>
+    <div class="hafta-9-UsmonovAzimjon">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">9-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">9</td>
+    <td class="td-FISH">Mamatqulov Fathulla</td>
+    <div class="hafta-9-MamatqulovFathulla">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">7-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">10</td>
+    <td class="td-FISH">Raxmatullayev Xurshid</td>
+    <div class="hafta-9-RaxmatullayevXurshid">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">2-ball</td>
+</tr>
+<tr>
+    <td class="td-urin">11</td>
+    <td class="td-FISH">Begbo'tayev Sunnatillo</td>
+    <div class="hafta-6-BegbutayevSunnatillo">
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+        <td class="td-box" onclick="minus()">---</td>
+    </div>
+    <td class="td-result">1-ball</td>
+</tr>
+<tr>
+    <td class="td-box">-</td>
+    <td class="td-box">-</td>
+    <div id="hafta-9-USER">
+        <td class="td-box" onclick="USERmasala64()">USER</td>
+        <td class="td-box" onclick="USERmasala65()">USER</td>
+        <td class="td-box" onclick="USERmasala66()">USER</td>
+        <td class="td-box" onclick="USERmasala67()">USER</td>
+        <td class="td-box" onclick="USERmasala68()">USER</td>
+        <td class="td-box" onclick="USERmasala69()">USER</td>
+        <td class="td-box" onclick="USERmasala70()">USER</td>
+    </div>
+</tr>
+<tr id="fantamas">
+    <td>000000000</td>
+    <td>000000000000000000000000</td>
+    <td>00000000000</td>
+    <td>00000000000</td>
+    <td>00000000000</td>
+    <td>00000000000</td>
+    <td>00000000000</td>
+    <td>00000000000</td>
+    <td>00000000000</td>
+    <td>000000000</td>
+</tr>
+<tr>
+    <td onclick="orqaga()">&#8592;</td>
+    <td colspan="8" style="color: #000; cursor: default;">10-hafta natijalari</td>
+    <td onclick="oldinga()">&#8594;</td>
+</tr>
+</table>
+`;
 
 
 
@@ -1735,7 +1940,6 @@ function oldinga() {
         haftaraqami += 1;
         hafta1.innerHTML = ``;
         hafta2.innerHTML = hafta2natijalari;
-        document.getElementById("style").innerHTML = `.day table tr:nth-child(12) td {border: none;}.day table tr:nth-child(13) td:nth-child(2) {border: none;}`;
     } else if (haftaraqami == 2) {
         haftaraqami += 1;
         hafta2.innerHTML = ``;
@@ -1743,7 +1947,6 @@ function oldinga() {
     } else if (haftaraqami == 3) {
         haftaraqami += 1;
         hafta3.innerHTML = ``;
-
         hafta4.innerHTML = hafta4natijalari;
     } else if (haftaraqami == 4) {
         haftaraqami += 1;
@@ -1767,6 +1970,10 @@ function oldinga() {
         haftaraqami += 1;
         hafta8.innerHTML = ``;
         hafta9.innerHTML = hafta9natijalari;
+    } else if (haftaraqami == 9) {
+        haftaraqami += 1;
+        hafta9.innerHTML = ``;
+        hafta10.innerHTML = hafta10natijalari;
     }
 }
 
@@ -1775,14 +1982,6 @@ function orqaga() {
         haftaraqami -= 1;
         hafta1.innerHTML = hafta1natijalari;
         hafta2.innerHTML = ``;
-        document.getElementById("style").innerHTML = `
-        .day table tr:nth-child(13) td {
-            border: none;
-        }
-        
-        .day table tr:nth-child(14) td:nth-child(2) {
-            border: none;
-        }`;
     } else if (haftaraqami == 3) {
         haftaraqami -= 1;
         hafta2.innerHTML = hafta2natijalari;
@@ -1811,7 +2010,11 @@ function orqaga() {
         hafta8.innerHTML = ``;
     } else if (haftaraqami == 9) {
         haftaraqami -= 1;
-        hafta8.innerHTML = hafta7natijalari;
+        hafta8.innerHTML = hafta8natijalari;
         hafta9.innerHTML = ``;
+    } else if (haftaraqami == 10) {
+        haftaraqami -= 1;
+        hafta9.innerHTML = hafta9natijalari;
+        hafta10.innerHTML = ``;
     }
 }

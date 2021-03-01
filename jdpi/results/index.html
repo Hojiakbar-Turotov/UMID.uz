@@ -7,11 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <style id="style">
-        .day table tr:nth-child(14) td {
+        .day table tr:nth-child(12) td {
             border: none;
         }
         
-        .day table tr:nth-child(15) td:nth-child(2) {
+        .day table tr:nth-child(13) td:nth-child(2) {
             border: none;
         }
     </style>
@@ -24,7 +24,6 @@
             Natijalar
         </p>
         <br>
-
         <div id="hafta1">
             <table>
                 <tr>
@@ -55,9 +54,22 @@
                     </div>
                     <td class="td-result">159-ball</td>
                 </tr>
-
                 <tr>
                     <td class="td-urin">2</td>
+                    <td class="td-FISH">Abduqodirova Dilshoda</td>
+                    <div class="hafta-1-AbduqodirovaDilshoda">
+                        <td class="td-box" onclick="AbduqodirovaDilshodamasala1()"><span id="AbduqodirovaDilshodamasala1bali">7</span>-ball</td>
+                        <td class="td-box" onclick="AbduqodirovaDilshodamasala2()"><span id="AbduqodirovaDilshodamasala2bali">6</span>-ball</td>
+                        <td class="td-box" onclick="minus()">---</td>
+                        <td class="td-box" onclick="AbduqodirovaDilshodamasala4()"><span id="AbduqodirovaDilshodamasala4bali">9</span>-ball</td>
+                        <td class="td-box" onclick="minus()">---</td>
+                        <td class="td-box" onclick="minus()">---</td>
+                        <td class="td-box" onclick="minus()">---</td>
+                    </div>
+                    <td class="td-result">145-ball</td>
+                </tr>
+                <tr>
+                    <td class="td-urin">3</td>
                     <td class="td-FISH">Qo'chqorov Abulqosim</td>
                     <div class="hafta-1-QuchqorovAbulqosim">
                         <td class="td-box" onclick="minus()">---</td>
@@ -69,20 +81,6 @@
                         <td class="td-box" onclick="minus()">---</td>
                     </div>
                     <td class="td-result">121-ball</td>
-                </tr>
-                <tr>
-                    <td class="td-urin">3</td>
-                    <td class="td-FISH">Abduqodirova Dilshoda</td>
-                    <div class="hafta-1-AbduqodirovaDilshoda">
-                        <td class="td-box" onclick="AbduqodirovaDilshodamasala1()"><span id="AbduqodirovaDilshodamasala1bali">7</span>-ball</td>
-                        <td class="td-box" onclick="AbduqodirovaDilshodamasala2()"><span id="AbduqodirovaDilshodamasala2bali">6</span>-ball</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="AbduqodirovaDilshodamasala4()"><span id="AbduqodirovaDilshodamasala4bali">9</span>-ball</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                        <td class="td-box" onclick="minus()">---</td>
-                    </div>
-                    <td class="td-result">91-ball</td>
                 </tr>
                 <tr>
                     <td class="td-urin">4</td>
@@ -113,7 +111,6 @@
                     <td class="td-result">43-ball</td>
                 </tr>
                 <tr>
-                    <tr>
                         <td class="td-urin">6</td>
                         <td class="td-FISH">Ergashev Qayumjon</td>
                         <div class="hafta-6-ErgashevQayumjon">
@@ -126,8 +123,7 @@
                             <td class="td-box" onclick="minus()">---</td>
                         </div>
                         <td class="td-result">42-ball</td>
-                    </tr>
-                    <tr>
+                </tr>
                         <tr>
                             <td class="td-urin">7</td>
                             <td class="td-FISH">Samatova Gulmira</td>
@@ -154,8 +150,8 @@
                             <td class="td-box" onclick="minus()">---</td>
                         </div>
                         <td class="td-result">9-ball</td>
-                    </tr>
-                    <tr>
+                </tr>
+                <tr>
                         <td class="td-urin">9</td>
                         <td class="td-FISH">Mamatqulov Fathulla</td>
                         <div class="hafta-1-MamatqulovFathulla">
@@ -168,8 +164,8 @@
                             <td class="td-box" onclick="minus()">---</td>
                         </div>
                         <td class="td-result">7-ball</td>
-                    </tr>
-                    <tr>
+                </tr>
+                <tr>
                         <td class="td-box">-</td>
                         <td class="td-box">-</td>
                         <div id="hafta-1-USER">
@@ -181,8 +177,8 @@
                             <td class="td-box" onclick="USERmasala6()">USER</td>
                             <td class="td-box" onclick="USERmasala7()">USER</td>
                         </div>
-                    </tr>
-                    <tr id="fantamas">
+                </tr>
+                <tr id="fantamas">
                         <td>000000000</td>
                         <td>000000000000000000000000</td>
                         <td>00000000000</td>
@@ -193,12 +189,12 @@
                         <td>00000000000</td>
                         <td>00000000000</td>
                         <td>000000000</td>
-                    </tr>
-                    <tr>
-                        <td onclick="orqaga()" class="d-none">&#8592;</td>
-                        <td colspan="9" style="color: #000; cursor: default;">1-hafta natijalari</td>
-                        <td onclick="oldinga()">&#8594;</td>
-                    </tr>
+                </tr>
+                <tr>
+                    <td onclick="orqaga()" class="d-none">&#8592;</td>
+                    <td colspan="9" style="color: #000; cursor: default;">1-hafta natijalari</td>
+                    <td onclick="oldinga()">&#8594;</td>
+                </tr>
             </table>
         </div>
 
@@ -220,6 +216,8 @@
         <div id="hafta8"> 
         </div>
         <div id="hafta9"> 
+        </div>
+        <div id="hafta10"> 
         </div>
 
     </section>
@@ -497,6 +495,48 @@
             </pre><img src="./U_Mashhura/masala36.png" alt="Bu yerda 36-masala yechimi bor">
             </div>
             <!-- +++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Ulasheva_Mashhura_50" class="d-none">
+                <pre onclick="UlashevaMashhuramasala50()"> ortga qaytish
+        
+            </pre><img src="./U_Mashhura/masala50.png" alt="Bu yerda 50-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Ulasheva_Mashhura_51" class="d-none">
+                <pre onclick="UlashevaMashhuramasala51()"> ortga qaytish
+        
+            </pre><img src="./U_Mashhura/masala51.png" alt="Bu yerda 51-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Ulasheva_Mashhura_52" class="d-none">
+                <pre onclick="UlashevaMashhuramasala52()"> ortga qaytish
+        
+            </pre><img src="./U_Mashhura/masala52.png" alt="Bu yerda 52-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Ulasheva_Mashhura_53" class="d-none">
+                <pre onclick="UlashevaMashhuramasala53()"> ortga qaytish
+        
+            </pre><img src="./U_Mashhura/masala53.png" alt="Bu yerda 53-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Ulasheva_Mashhura_54" class="d-none">
+                <pre onclick="UlashevaMashhuramasala54()"> ortga qaytish
+        
+            </pre><img src="./U_Mashhura/masala54.png" alt="Bu yerda 54-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Ulasheva_Mashhura_55" class="d-none">
+                <pre onclick="UlashevaMashhuramasala55()"> ortga qaytish
+        
+            </pre><img src="./U_Mashhura/masala55.png" alt="Bu yerda 55-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Ulasheva_Mashhura_56" class="d-none">
+                <pre onclick="UlashevaMashhuramasala56()"> ortga qaytish
+        
+            </pre><img src="./U_Mashhura/masala56.png" alt="Bu yerda 56-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++ -->
         </section>
         <!-- ******************************************** -->
         <section id="A_Dilshoda">
@@ -618,6 +658,48 @@
                 </pre> <img src="./A_Dilshoda/masala35.png" alt="Bu yerda 35-masala yechimi bor">
             </div>
             <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Abduqodirova_Dilshoda_64" class="d-none">
+                <pre onclick="AbduqodirovaDilshodamasala64()"> ortga qaytish
+            
+                </pre> <img src="./A_Dilshoda/masala64.png" alt="Bu yerda 64-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Abduqodirova_Dilshoda_65" class="d-none">
+                <pre onclick="AbduqodirovaDilshodamasala65()"> ortga qaytish
+            
+                </pre> <img src="./A_Dilshoda/masala65.png" alt="Bu yerda 65-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Abduqodirova_Dilshoda_66" class="d-none">
+                <pre onclick="AbduqodirovaDilshodamasala66()"> ortga qaytish
+            
+                </pre> <img src="./A_Dilshoda/masala66.png" alt="Bu yerda 66-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Abduqodirova_Dilshoda_67" class="d-none">
+                <pre onclick="AbduqodirovaDilshodamasala67()"> ortga qaytish
+            
+                </pre> <img src="./A_Dilshoda/masala67.png" alt="Bu yerda 67-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Abduqodirova_Dilshoda_68" class="d-none">
+                <pre onclick="AbduqodirovaDilshodamasala68()"> ortga qaytish
+            
+                </pre> <img src="./A_Dilshoda/masala68.png" alt="Bu yerda 68-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Abduqodirova_Dilshoda_69" class="d-none">
+                <pre onclick="AbduqodirovaDilshodamasala69()"> ortga qaytish
+            
+                </pre> <img src="./A_Dilshoda/masala69.png" alt="Bu yerda 69-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Abduqodirova_Dilshoda_70" class="d-none">
+                <pre onclick="AbduqodirovaDilshodamasala70()"> ortga qaytish
+            
+                </pre> <img src="./A_Dilshoda/masala70.png" alt="Bu yerda 70-masala yechimi bor">
+            </div>
+            <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
         </section>
         <!-- ************************************************************** -->
         <section id="U_Azimjon">
@@ -729,6 +811,36 @@
                 <pre onclick="SamatovaGulmiramasala41()"> ortga qaytish
             
                 </pre> <img src="./S_Gulmira/masala41.png" alt="Bu yerda 41-masala yechimi bor">
+            </div>
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Samatova_Gulmira_43" class="d-none">
+                <pre onclick="SamatovaGulmiramasala43()"> ortga qaytish
+            
+                </pre> <img src="./S_Gulmira/masala43.png" alt="Bu yerda 43-masala yechimi bor">
+            </div>
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Samatova_Gulmira_44" class="d-none">
+                <pre onclick="SamatovaGulmiramasala44()"> ortga qaytish
+            
+                </pre> <img src="./S_Gulmira/masala44.png" alt="Bu yerda 44-masala yechimi bor">
+            </div>
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Samatova_Gulmira_47" class="d-none">
+                <pre onclick="SamatovaGulmiramasala47()"> ortga qaytish
+            
+                </pre> <img src="./S_Gulmira/masala47.png" alt="Bu yerda 47-masala yechimi bor">
+            </div>
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Samatova_Gulmira_48" class="d-none">
+                <pre onclick="SamatovaGulmiramasala48()"> ortga qaytish
+            
+                </pre> <img src="./S_Gulmira/masala48.png" alt="Bu yerda 48-masala yechimi bor">
+            </div>
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Samatova_Gulmira_49" class="d-none">
+                <pre onclick="SamatovaGulmiramasala49()"> ortga qaytish
+            
+                </pre> <img src="./S_Gulmira/masala49.png" alt="Bu yerda 49-masala yechimi bor">
             </div>
             <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
         </section>
@@ -866,6 +978,42 @@
                 <pre onclick="QuchqorovAbulqosimmasala34()"> ortga qaytish
             
                 </pre> <img src="./Q_Abulqosim/masala34.png" alt="Bu yerda 34-masala yechimi bor">
+            </div>
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Quchqorov_Abulqosim_44" class="d-none">
+                <pre onclick="QuchqorovAbulqosimmasala44()"> ortga qaytish
+            
+                </pre> <img src="./Q_Abulqosim/masala44.png" alt="Bu yerda 44-masala yechimi bor">
+            </div>
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Quchqorov_Abulqosim_45" class="d-none">
+                <pre onclick="QuchqorovAbulqosimmasala45()"> ortga qaytish
+            
+                </pre> <img src="./Q_Abulqosim/masala45.png" alt="Bu yerda 45-masala yechimi bor">
+            </div>
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Quchqorov_Abulqosim_46" class="d-none">
+                <pre onclick="QuchqorovAbulqosimmasala46()"> ortga qaytish
+            
+                </pre> <img src="./Q_Abulqosim/masala46.png" alt="Bu yerda 46-masala yechimi bor">
+            </div>
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Quchqorov_Abulqosim_47" class="d-none">
+                <pre onclick="QuchqorovAbulqosimmasala47()"> ortga qaytish
+            
+                </pre> <img src="./Q_Abulqosim/masala47.png" alt="Bu yerda 47-masala yechimi bor">
+            </div>
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Quchqorov_Abulqosim_48" class="d-none">
+                <pre onclick="QuchqorovAbulqosimmasala48()"> ortga qaytish
+            
+                </pre> <img src="./Q_Abulqosim/masala48.png" alt="Bu yerda 48-masala yechimi bor">
+            </div>
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
+            <div id="Quchqorov_Abulqosim_49" class="d-none">
+                <pre onclick="QuchqorovAbulqosimmasala49()"> ortga qaytish
+            
+                </pre> <img src="./Q_Abulqosim/masala49.png" alt="Bu yerda 49-masala yechimi bor">
             </div>
             <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
         </section>
@@ -1115,6 +1263,146 @@
                 <pre onclick="USERmasala42()"> ortga qaytish
         
             </pre> <img src="./USER/masala42.png" alt="Bu yerda 42-masala yechimi bor">
+            </div>
+            <div id="USER_43" class="d-none">
+                <pre onclick="USERmasala43()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala43.png" alt="Bu yerda 43-masala yechimi bor">
+            </div>
+            <div id="USER_44" class="d-none">
+                <pre onclick="USERmasala44()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala44.png" alt="Bu yerda 44-masala yechimi bor">
+            </div>
+            <div id="USER_45" class="d-none">
+                <pre onclick="USERmasala45()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala45.png" alt="Bu yerda 45-masala yechimi bor">
+            </div>
+            <div id="USER_46" class="d-none">
+                <pre onclick="USERmasala46()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala46.png" alt="Bu yerda 46-masala yechimi bor">
+            </div>
+            <div id="USER_47" class="d-none">
+                <pre onclick="USERmasala47()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala47.png" alt="Bu yerda 47-masala yechimi bor">
+            </div>
+            <div id="USER_48" class="d-none">
+                <pre onclick="USERmasala48()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala48.png" alt="Bu yerda 48-masala yechimi bor">
+            </div>
+            <div id="USER_49" class="d-none">
+                <pre onclick="USERmasala49()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala49.png" alt="Bu yerda 49-masala yechimi bor">
+            </div>
+            <div id="USER_50" class="d-none">
+                <pre onclick="USERmasala50()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala50.png" alt="Bu yerda 50-masala yechimi bor">
+            </div>
+            <div id="USER_51" class="d-none">
+                <pre onclick="USERmasala51()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala51.png" alt="Bu yerda 51-masala yechimi bor">
+            </div>
+            <div id="USER_52" class="d-none">
+                <pre onclick="USERmasala52()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala52.png" alt="Bu yerda 52-masala yechimi bor">
+            </div>
+            <div id="USER_53" class="d-none">
+                <pre onclick="USERmasala53()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala53.png" alt="Bu yerda 53-masala yechimi bor">
+            </div>
+            <div id="USER_54" class="d-none">
+                <pre onclick="USERmasala54()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala54.png" alt="Bu yerda 54-masala yechimi bor">
+            </div>
+            <div id="USER_55" class="d-none">
+                <pre onclick="USERmasala55()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala55.png" alt="Bu yerda 55-masala yechimi bor">
+            </div>
+            <div id="USER_56" class="d-none">
+                <pre onclick="USERmasala56()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala56.png" alt="Bu yerda 56-masala yechimi bor">
+            </div>
+            <div id="USER_57" class="d-none">
+                <pre onclick="USERmasala57()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala57.png" alt="Bu yerda 57-masala yechimi bor">
+            </div>
+            <div id="USER_58" class="d-none">
+                <pre onclick="USERmasala58()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala58.png" alt="Bu yerda 58-masala yechimi bor">
+            </div>
+            <div id="USER_59" class="d-none">
+                <pre onclick="USERmasala59()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala59.png" alt="Bu yerda 59-masala yechimi bor">
+            </div>
+            <div id="USER_60" class="d-none">
+                <pre onclick="USERmasala60()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala60.png" alt="Bu yerda 60-masala yechimi bor">
+            </div>
+            <div id="USER_61" class="d-none">
+                <pre onclick="USERmasala61()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala61.png" alt="Bu yerda 61-masala yechimi bor">
+            </div>
+            <div id="USER_62" class="d-none">
+                <pre onclick="USERmasala62()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala62.png" alt="Bu yerda 62-masala yechimi bor">
+            </div>
+            <div id="USER_63" class="d-none">
+                <pre onclick="USERmasala63()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala63.png" alt="Bu yerda 63-masala yechimi bor">
+            </div>
+            <div id="USER_64" class="d-none">
+                <pre onclick="USERmasala64()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala64.png" alt="Bu yerda 64-masala yechimi bor">
+            </div>
+            <div id="USER_65" class="d-none">
+                <pre onclick="USERmasala65()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala65.png" alt="Bu yerda 65-masala yechimi bor">
+            </div>
+            <div id="USER_66" class="d-none">
+                <pre onclick="USERmasala66()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala66.png" alt="Bu yerda 66-masala yechimi bor">
+            </div>
+            <div id="USER_67" class="d-none">
+                <pre onclick="USERmasala67()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala67.png" alt="Bu yerda 67-masala yechimi bor">
+            </div>
+            <div id="USER_68" class="d-none">
+                <pre onclick="USERmasala68()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala68.png" alt="Bu yerda 68-masala yechimi bor">
+            </div>
+            <div id="USER_69" class="d-none">
+                <pre onclick="USERmasala69()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala69.png" alt="Bu yerda 69-masala yechimi bor">
+            </div>
+            <div id="USER_70" class="d-none">
+                <pre onclick="USERmasala70()"> ortga qaytish
+        
+            </pre> <img src="./USER/masala70.png" alt="Bu yerda 70-masala yechimi bor">
             </div>
 
         </section>

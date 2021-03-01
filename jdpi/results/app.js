@@ -59,6 +59,20 @@ const AbduqodirovaDilshoda33masala = document.getElementById("Abduqodirova_Dilsh
 const AbduqodirovaDilshoda34masala = document.getElementById("Abduqodirova_Dilshoda_34");
 // 35-masala
 const AbduqodirovaDilshoda35masala = document.getElementById("Abduqodirova_Dilshoda_35");
+// 64-masala
+const AbduqodirovaDilshoda64masala = document.getElementById("Abduqodirova_Dilshoda_64");
+// 65-masala
+const AbduqodirovaDilshoda65masala = document.getElementById("Abduqodirova_Dilshoda_65");
+// 66-masala
+const AbduqodirovaDilshoda66masala = document.getElementById("Abduqodirova_Dilshoda_66");
+// 67-masala
+const AbduqodirovaDilshoda67masala = document.getElementById("Abduqodirova_Dilshoda_67");
+// 68-masala
+const AbduqodirovaDilshoda68masala = document.getElementById("Abduqodirova_Dilshoda_68");
+// 69-masala
+const AbduqodirovaDilshoda69masala = document.getElementById("Abduqodirova_Dilshoda_69");
+// 70-masala
+const AbduqodirovaDilshoda70masala = document.getElementById("Abduqodirova_Dilshoda_70");
 
 
 // Ulashev Mashhura
@@ -130,6 +144,20 @@ const UlashevaMashhura33masala = document.getElementById("Ulasheva_Mashhura_33")
 const UlashevaMashhura34masala = document.getElementById("Ulasheva_Mashhura_34");
 // 35-masala
 const UlashevaMashhura35masala = document.getElementById("Ulasheva_Mashhura_35");
+// 50-masala
+const UlashevaMashhura50masala = document.getElementById("Ulasheva_Mashhura_50");
+// 51-masala
+const UlashevaMashhura51masala = document.getElementById("Ulasheva_Mashhura_51");
+// 52-masala
+const UlashevaMashhura52masala = document.getElementById("Ulasheva_Mashhura_52");
+// 53-masala
+const UlashevaMashhura53masala = document.getElementById("Ulasheva_Mashhura_53");
+// 54-masala
+const UlashevaMashhura54masala = document.getElementById("Ulasheva_Mashhura_54");
+// 55-masala
+const UlashevaMashhura55masala = document.getElementById("Ulasheva_Mashhura_55");
+// 56-masala
+const UlashevaMashhura56masala = document.getElementById("Ulasheva_Mashhura_56");
 
 
 // Usmonov Azimjon
@@ -167,6 +195,16 @@ const SamatovaGulmira39masala = document.getElementById("Samatova_Gulmira_39");
 const SamatovaGulmira40masala = document.getElementById("Samatova_Gulmira_40");
 // 41-masala
 const SamatovaGulmira41masala = document.getElementById("Samatova_Gulmira_41");
+// 43-masala
+const SamatovaGulmira43masala = document.getElementById("Samatova_Gulmira_43");
+// 44-masala
+const SamatovaGulmira44masala = document.getElementById("Samatova_Gulmira_44");
+// 47-masala
+const SamatovaGulmira47masala = document.getElementById("Samatova_Gulmira_47");
+// 48-masala
+const SamatovaGulmira48masala = document.getElementById("Samatova_Gulmira_48");
+// 49-masala
+const SamatovaGulmira49masala = document.getElementById("Samatova_Gulmira_49");
 
 
 
@@ -217,6 +255,18 @@ const QuchqorovAbulqosim32masala = document.getElementById("Quchqorov_Abulqosim_
 const QuchqorovAbulqosim33masala = document.getElementById("Quchqorov_Abulqosim_33");
 // 34-masala
 const QuchqorovAbulqosim34masala = document.getElementById("Quchqorov_Abulqosim_34");
+// 44-masala
+const QuchqorovAbulqosim44masala = document.getElementById("Quchqorov_Abulqosim_44");
+// 45-masala
+const QuchqorovAbulqosim45masala = document.getElementById("Quchqorov_Abulqosim_45");
+// 46-masala
+const QuchqorovAbulqosim46masala = document.getElementById("Quchqorov_Abulqosim_46");
+// 47-masala
+const QuchqorovAbulqosim47masala = document.getElementById("Quchqorov_Abulqosim_47");
+// 48-masala
+const QuchqorovAbulqosim48masala = document.getElementById("Quchqorov_Abulqosim_48");
+// 49-masala
+const QuchqorovAbulqosim49masala = document.getElementById("Quchqorov_Abulqosim_49");
 
 
 // Ergashev Qayumjon
@@ -463,6 +513,90 @@ function AbduqodirovaDilshodamasala35() {
     } else {
         more();
         AbduqodirovaDilshoda35masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function AbduqodirovaDilshodamasala64() {
+    if (isBoolean) {
+        all();
+        AbduqodirovaDilshoda64masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        AbduqodirovaDilshoda64masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function AbduqodirovaDilshodamasala65() {
+    if (isBoolean) {
+        all();
+        AbduqodirovaDilshoda65masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        AbduqodirovaDilshoda65masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function AbduqodirovaDilshodamasala66() {
+    if (isBoolean) {
+        all();
+        AbduqodirovaDilshoda66masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        AbduqodirovaDilshoda66masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function AbduqodirovaDilshodamasala67() {
+    if (isBoolean) {
+        all();
+        AbduqodirovaDilshoda67masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        AbduqodirovaDilshoda67masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function AbduqodirovaDilshodamasala68() {
+    if (isBoolean) {
+        all();
+        AbduqodirovaDilshoda68masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        AbduqodirovaDilshoda68masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function AbduqodirovaDilshodamasala69() {
+    if (isBoolean) {
+        all();
+        AbduqodirovaDilshoda69masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        AbduqodirovaDilshoda69masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function AbduqodirovaDilshodamasala70() {
+    if (isBoolean) {
+        all();
+        AbduqodirovaDilshoda70masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        AbduqodirovaDilshoda70masala.classList.add("d-none");
         isBoolean = true;
     }
 }
@@ -914,21 +1048,101 @@ function UlashevaMashhuramasala35() {
     }
 }
 
-// 36-masala
-function UlashevaMashhuramasala36() {
+// 50-masala
+function UlashevaMashhuramasala50() {
     if (isBoolean) {
         all();
-        UlashevaMashhura36masala.classList.remove("d-none");
+        UlashevaMashhura50masala.classList.remove("d-none");
         isBoolean = false;
     } else {
         more();
-        UlashevaMashhura36masala.classList.add("d-none");
+        UlashevaMashhura50masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 51-masala
+function UlashevaMashhuramasala51() {
+    if (isBoolean) {
+        all();
+        UlashevaMashhura51masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        UlashevaMashhura51masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 52-masala
+function UlashevaMashhuramasala52() {
+    if (isBoolean) {
+        all();
+        UlashevaMashhura52masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        UlashevaMashhura52masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 53-masala
+function UlashevaMashhuramasala53() {
+    if (isBoolean) {
+        all();
+        UlashevaMashhura53masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        UlashevaMashhura53masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 54-masala
+function UlashevaMashhuramasala54() {
+    if (isBoolean) {
+        all();
+        UlashevaMashhura54masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        UlashevaMashhura54masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 55-masala
+function UlashevaMashhuramasala55() {
+    if (isBoolean) {
+        all();
+        UlashevaMashhura55masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        UlashevaMashhura55masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 56-masala
+function UlashevaMashhuramasala56() {
+    if (isBoolean) {
+        all();
+        UlashevaMashhura56masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        UlashevaMashhura56masala.classList.add("d-none");
         isBoolean = true;
     }
 }
 
 
 // Usmono Azimjon
+
+// 1-masala
 function UsmonovAzimjonmasala1() {
     if (isBoolean) {
         all();
@@ -1111,6 +1325,71 @@ function SamatovaGulmiramasala41() {
     } else {
         more();
         SamatovaGulmira41masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 43-masala
+function SamatovaGulmiramasala43() {
+    if (isBoolean) {
+        all();
+        SamatovaGulmira43masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        SamatovaGulmira43masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 44-masala
+function SamatovaGulmiramasala44() {
+    if (isBoolean) {
+        all();
+        SamatovaGulmira44masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        SamatovaGulmira44masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 47-masala
+function SamatovaGulmiramasala47() {
+    if (isBoolean) {
+        all();
+        SamatovaGulmira47masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        SamatovaGulmira47masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 48-masala
+function SamatovaGulmiramasala48() {
+    if (isBoolean) {
+        all();
+        SamatovaGulmira48masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        SamatovaGulmira48masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 49-masala
+function SamatovaGulmiramasala49() {
+    if (isBoolean) {
+        all();
+        SamatovaGulmira49masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        SamatovaGulmira49masala.classList.add("d-none");
         isBoolean = true;
     }
 }
@@ -1389,6 +1668,86 @@ function QuchqorovAbulqosimmasala34() {
     }
 }
 
+// 44-masala
+function QuchqorovAbulqosimmasala44() {
+    if (isBoolean) {
+        all();
+        QuchqorovAbulqosim44masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        QuchqorovAbulqosim44masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 45-masala
+function QuchqorovAbulqosimmasala45() {
+    if (isBoolean) {
+        all();
+        QuchqorovAbulqosim45masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        QuchqorovAbulqosim45masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 46-masala
+function QuchqorovAbulqosimmasala46() {
+    if (isBoolean) {
+        all();
+        QuchqorovAbulqosim46masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        QuchqorovAbulqosim46masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 47-masala
+function QuchqorovAbulqosimmasala47() {
+    if (isBoolean) {
+        all();
+        QuchqorovAbulqosim47masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        QuchqorovAbulqosim47masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 48-masala
+function QuchqorovAbulqosimmasala48() {
+    if (isBoolean) {
+        all();
+        QuchqorovAbulqosim48masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        QuchqorovAbulqosim48masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+// 49-masala
+function QuchqorovAbulqosimmasala49() {
+    if (isBoolean) {
+        all();
+        QuchqorovAbulqosim49masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        QuchqorovAbulqosim49masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+
+
 // Ergashev Qayumjon
 
 
@@ -1585,25 +1944,63 @@ const USER40masala = document.getElementById("USER_40");
 // 41-masala
 const USER41masala = document.getElementById("USER_41");
 // 42-masala
-/*const USER42masala = document.getElementById("USER_42");
+const USER42masala = document.getElementById("USER_42");
 // 43-masala
 const USER43masala = document.getElementById("USER_43");
 // 44-masala
 const USER44masala = document.getElementById("USER_44");
-// 28-masala
-const USER28masala = document.getElementById("USER_28");
-// 28-masala
-const USER28masala = document.getElementById("USER_28");
-// 28-masala
-const USER28masala = document.getElementById("USER_28");
-// 28-masala
-const USER28masala = document.getElementById("USER_28");
-// 28-masala
-const USER28masala = document.getElementById("USER_28");
-// 28-masala
-const USER28masala = document.getElementById("USER_28");
-// 28-masala
-const USER28masala = document.getElementById("USER_28");*/
+// 45-masala
+const USER45masala = document.getElementById("USER_45");
+// 46-masala
+const USER46masala = document.getElementById("USER_46");
+// 47-masala
+const USER47masala = document.getElementById("USER_47");
+// 48-masala
+const USER48masala = document.getElementById("USER_48");
+// 49-masala
+const USER49masala = document.getElementById("USER_49");
+// 50-masala
+const USER50masala = document.getElementById("USER_50");
+// 51-masala
+const USER51masala = document.getElementById("USER_51");
+// 52-masala
+const USER52masala = document.getElementById("USER_52");
+// 53-masala
+const USER53masala = document.getElementById("USER_53");
+// 54-masala
+const USER54masala = document.getElementById("USER_54");
+// 55-masala
+const USER55masala = document.getElementById("USER_55");
+// 56-masala
+const USER56masala = document.getElementById("USER_56");
+// 57-masala
+const USER57masala = document.getElementById("USER_57");
+// 58-masala
+const USER58masala = document.getElementById("USER_58");
+// 59-masala
+const USER59masala = document.getElementById("USER_59");
+// 60-masala
+const USER60masala = document.getElementById("USER_60");
+// 61-masala
+const USER61masala = document.getElementById("USER_61");
+// 62-masala
+const USER62masala = document.getElementById("USER_62");
+// 63-masala
+const USER63masala = document.getElementById("USER_63");
+// 64-masala
+const USER64masala = document.getElementById("USER_64");
+// 65-masala
+const USER65masala = document.getElementById("USER_65");
+// 66-masala
+const USER66masala = document.getElementById("USER_66");
+// 67-masala
+const USER67masala = document.getElementById("USER_67");
+// 68-masala
+const USER68masala = document.getElementById("USER_68");
+// 69-masala
+const USER69masala = document.getElementById("USER_69");
+// 70-masala
+const USER70masala = document.getElementById("USER_70");
 
 function USERmasala1() {
     if (isBoolean) {
@@ -2045,6 +2442,342 @@ function USERmasala42() {
     } else {
         more();
         USER42masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala43() {
+    if (isBoolean) {
+        all();
+        USER43masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER43masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala44() {
+    if (isBoolean) {
+        all();
+        USER44masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER44masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala45() {
+    if (isBoolean) {
+        all();
+        USER45masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER45masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala46() {
+    if (isBoolean) {
+        all();
+        USER46masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER46masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala47() {
+    if (isBoolean) {
+        all();
+        USER47masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER47masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala48() {
+    if (isBoolean) {
+        all();
+        USER48masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER48masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala49() {
+    if (isBoolean) {
+        all();
+        USER49masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER49masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala50() {
+    if (isBoolean) {
+        all();
+        USER50masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER50masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala51() {
+    if (isBoolean) {
+        all();
+        USER51masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER51masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala52() {
+    if (isBoolean) {
+        all();
+        USER52masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER52masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala53() {
+    if (isBoolean) {
+        all();
+        USER53masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER53masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala54() {
+    if (isBoolean) {
+        all();
+        USER54masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER54masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala55() {
+    if (isBoolean) {
+        all();
+        USER55masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER55masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala56() {
+    if (isBoolean) {
+        all();
+        USER56masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER56masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala57() {
+    if (isBoolean) {
+        all();
+        USER57masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER57masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala58() {
+    if (isBoolean) {
+        all();
+        USER58masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER58masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala59() {
+    if (isBoolean) {
+        all();
+        USER59masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER59masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala60() {
+    if (isBoolean) {
+        all();
+        USER60masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER60masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala61() {
+    if (isBoolean) {
+        all();
+        USER61masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER61masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala62() {
+    if (isBoolean) {
+        all();
+        USER62masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER62masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala63() {
+    if (isBoolean) {
+        all();
+        USER63masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER63masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala64() {
+    if (isBoolean) {
+        all();
+        USER64masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER64masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala65() {
+    if (isBoolean) {
+        all();
+        USER65masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER65masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala66() {
+    if (isBoolean) {
+        all();
+        USER66masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER66masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala67() {
+    if (isBoolean) {
+        all();
+        USER67masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER67masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala68() {
+    if (isBoolean) {
+        all();
+        USER68masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER68masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala69() {
+    if (isBoolean) {
+        all();
+        USER69masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER69masala.classList.add("d-none");
+        isBoolean = true;
+    }
+}
+
+function USERmasala70() {
+    if (isBoolean) {
+        all();
+        USER70masala.classList.remove("d-none");
+        isBoolean = false;
+    } else {
+        more();
+        USER70masala.classList.add("d-none");
         isBoolean = true;
     }
 }
